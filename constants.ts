@@ -169,7 +169,7 @@ Speed x10`
     date: 'October 2020',
     subtitle: 'Kathmandu\nby Korbinian Enzinger\nSupervised by Prof. Claudia Pasquero and Maria Kuptsova',
     description: 'Kathmandu, Nepal',
-    imageUrl: 'https://picsum.photos/id/1016/800/600',
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Hydromorphology_01.webp',
     credits: 'University of Innsbruck 2020\nIOUD - Synthetic Landscape Lab\n\nAuthor: Dipl.-Ing. Korbinian Enzinger\n\nSupervisor: Prof. Dr. Claudia Pasquero, MA Maria Kuptsova\n\nExternal Examiner: Dr. Marco Poletto',
     content: [
       {
@@ -184,7 +184,7 @@ Smith, Mick (2014). "Deep Ecology: What is Said and (to be) Done?"`
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/id/301/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology_02.webp',
         alt: 'Hydrology Map'
       },
       {
