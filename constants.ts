@@ -793,13 +793,13 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Research | Patterns',
     date: 'March 2024',
     description: `Exploration of glacial melting patterns.`,
-    imageUrl: 'https://picsum.photos/id/1020/1920/1080',
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Gelu/Gelu_TN.webp',
     hasIntro: true,
-    introVideoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+    introVideoUrl: 'https://storage.googleapis.com/mutualism-media/Gelu/Gelu_MeltingIceMicro.mp4',
     content: [
       {
         type: 'video',
-        src: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4'
+        src: 'https://storage.googleapis.com/mutualism-media/Gelu/Gelu_MeltingIceMicro.mp4'
       },
       {
         type: 'text',
@@ -1029,12 +1029,27 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Research | Technique',
     date: 'March 2023',
     description: `Exploration of growth algorithms.`,
-    imageUrl: 'https://picsum.photos/id/1026/1920/1080',
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/DifferentialGrowth/test01.webp',
     content: [
       {
         type: 'image',
-        src: 'https://picsum.photos/id/910/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/DifferentialGrowth/DG%20Structure%2002.webp',
         alt: 'DG Structure 1'
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/DifferentialGrowth/test01.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/DifferentialGrowth/test02.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/DifferentialGrowth/DG%20Structure%2001.webp',
+        alt: ''
       }
     ],
     featured: false
@@ -1094,7 +1109,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Research | Patterns',
     date: 'January 2021',
     description: `Water surface patterns.`,
-    imageUrl: 'https://storage.googleapis.com/mutualism-media/WaterPatterns/Water_patterns_01_tn.webp',
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/WaterPatterns/Water_patterns_01.webp',
     content: [
       {
         type: 'text',
