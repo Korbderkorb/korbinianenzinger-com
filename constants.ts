@@ -1,4 +1,4 @@
-import { Project, BlogPost, NavLink } from './types';
+import { Project, BlogPost, NavLink, SocialLink, LandingPage } from './types';
 
 export const NAV_LINKS: NavLink[] = [
   {
@@ -19,16 +19,48 @@ export const NAV_LINKS: NavLink[] = [
   }
 ];
 
+export const LANDING_PAGE: LandingPage = {
+  heroTitle: 'MUTUALISM',
+  heroSubtitle: 'Designing \nSymbiotic Relationships \nbetween human \nand non-human',
+  heroImage: 'https://storage.googleapis.com/mutualism-media/hydromorphology-01.webp'
+};
+
+export const SOCIAL_LINKS: SocialLink[] = [
+  {
+    id: '1',
+    platform: 'Instagram',
+    url: 'https://instagram.com/enzinger.k',
+    icon: 'instagram'
+  },
+  {
+    id: '2',
+    platform: 'LinkedIn',
+    url: 'https://linkedin.com/in/korbinianenzinger',
+    icon: 'linkedin'
+  },
+  {
+    id: '3',
+    platform: 'Email',
+    url: 'mailto:contact@enzinger.k',
+    icon: 'mail'
+  }
+];
+
 export const FEATURED_PROJECTS: Project[] = [
   {
     id: 'crys',
     title: 'Crys',
     category: 'Design | Fashion',
     date: 'April 2023',
-    description: 'Paris, France',
+    description: `Paris, France`,
     subtitle: 'Artists: Maria Kuptsova, Haoyi Chen, Korbinian Enzinger',
-    imageUrl: 'https://picsum.photos/id/1018/800/600',
-    credits: 'Wearable Design: Maria Kuptsova and Korbinian Enzinger\nBag Design: Haoyi Chen\nAlgae Filament: Haoyi Chen\nRenderings: Korbinian Enzinger\nModel: Maria Kuptsova\nPhotos: Korbinian Enzinger',
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Crys/T1.webp',
+    credits: `Wearable Design: Maria Kuptsova and Korbinian Enzinger
+Bag Design: Haoyi Chen
+Algae Filament: Haoyi Chen
+Renderings: Korbinian Enzinger
+Model: Maria Kuptsova
+Photos: Korbinian Enzinger`,
     content: [
       {
         type: 'text',
@@ -38,7 +70,7 @@ The structural foundation of CRYSTALLUM is realized through the implementation o
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/id/201/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/Crys/_DSC48871.webp',
         alt: 'Crys Detail'
       },
       {
@@ -50,12 +82,12 @@ The structural foundation of CRYSTALLUM is realized through the implementation o
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/202/600/800',
+            src: 'https://storage.googleapis.com/mutualism-media/Crys/_DSC4932.webp',
             alt: 'Detail 1'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/203/600/800',
+            src: 'https://storage.googleapis.com/mutualism-media/Crys/_DSC4968.webp',
             alt: 'Detail 2'
           }
         ]
@@ -66,7 +98,7 @@ The structural foundation of CRYSTALLUM is realized through the implementation o
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/id/204/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/Crys/Rendering01.webp',
         alt: 'Rendering'
       },
       {
@@ -78,7 +110,7 @@ The structural foundation of CRYSTALLUM is realized through the implementation o
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/206/600/600',
+            src: 'https://storage.googleapis.com/mutualism-media/Crys/BoraksGIF.gif',
             alt: 'Borax Salt'
           },
           {
@@ -94,7 +126,7 @@ Speed x10`
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/208/600/600',
+            src: 'https://storage.googleapis.com/mutualism-media/Crys/epsomGIF.gif',
             alt: 'Epsom Salt'
           },
           {
@@ -110,7 +142,7 @@ Speed x10`
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/209/600/600',
+            src: 'https://storage.googleapis.com/mutualism-media/Crys/AlluminiumSulfateGIF.gif',
             alt: 'Ammonium Sulfate'
           },
           {
@@ -127,7 +159,7 @@ Speed x10`
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/id/210/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/Crys/Rendering02.webp',
         alt: 'Rendering 2'
       },
       {
@@ -135,12 +167,12 @@ Speed x10`
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/211/600/800',
+            src: 'https://storage.googleapis.com/mutualism-media/Crys/_DSC4997.webp',
             alt: 'Model View 1'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/212/600/800',
+            src: 'https://storage.googleapis.com/mutualism-media/Crys/_DSC5015.webp',
             alt: 'Model View 2'
           }
         ]
@@ -150,12 +182,12 @@ Speed x10`
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/213/600/800',
+            src: 'https://storage.googleapis.com/mutualism-media/Crys/_DSC5040.webp',
             alt: 'Model View 3'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/214/600/800',
+            src: 'https://storage.googleapis.com/mutualism-media/Crys/_DSC50171.webp',
             alt: 'Model View 4'
           }
         ]
@@ -168,9 +200,16 @@ Speed x10`
     category: 'Work | Research',
     date: 'October 2020',
     subtitle: 'Kathmandu\nby Korbinian Enzinger\nSupervised by Prof. Claudia Pasquero and Maria Kuptsova',
-    description: 'Kathmandu, Nepal',
-    imageUrl: 'https://storage.googleapis.com/mutualism-media/Hydromorphology_01.webp',
-    credits: 'University of Innsbruck 2020\nIOUD - Synthetic Landscape Lab\n\nAuthor: Dipl.-Ing. Korbinian Enzinger\n\nSupervisor: Prof. Dr. Claudia Pasquero, MA Maria Kuptsova\n\nExternal Examiner: Dr. Marco Poletto',
+    description: `Kathmandu, Nepal`,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_01.webp',
+    credits: `University of Innsbruck 2020
+IOUD - Synthetic Landscape Lab
+
+Author: Dipl.-Ing. Korbinian Enzinger
+
+Supervisor: Prof. Dr. Claudia Pasquero, MA Maria Kuptsova
+
+External Examiner: Dr. Marco Poletto`,
     content: [
       {
         type: 'text',
@@ -184,7 +223,7 @@ Smith, Mick (2014). "Deep Ecology: What is Said and (to be) Done?"`
       },
       {
         type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology_02.webp',
+        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_07.webp',
         alt: 'Hydrology Map'
       },
       {
@@ -197,7 +236,7 @@ Since 27% of the population in Nepal does not have access to improved sanitation
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/id/302/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_06.webp',
         alt: 'Erosion Analysis'
       },
       {
@@ -206,7 +245,7 @@ Since 27% of the population in Nepal does not have access to improved sanitation
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/id/304/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_03.webp',
         alt: 'Human Settlements'
       },
       {
@@ -215,7 +254,7 @@ Since 27% of the population in Nepal does not have access to improved sanitation
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/id/305/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_02.webp',
         alt: 'Hydrology Valley'
       },
       {
@@ -224,7 +263,7 @@ Since 27% of the population in Nepal does not have access to improved sanitation
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/id/306/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_05.webp',
         alt: 'Zoom NE'
       },
       {
@@ -235,7 +274,7 @@ For this to work, a water distribution system is needed that allows me to freely
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/id/307/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_08.webp',
         alt: 'Calculations'
       },
       {
@@ -244,7 +283,7 @@ For this to work, a water distribution system is needed that allows me to freely
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/id/308/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_09.webp',
         alt: 'Distribution Network'
       },
       {
@@ -253,7 +292,7 @@ For this to work, a water distribution system is needed that allows me to freely
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/id/309/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_04.webp',
         alt: 'Cycle GAN'
       },
       {
@@ -298,7 +337,8 @@ For this to work, a water distribution system is needed that allows me to freely
           }
         ]
       }
-    ]
+    ],
+    featured: false
   },
   {
     id: 'synthetic-swarm',
@@ -306,9 +346,15 @@ For this to work, a water distribution system is needed that allows me to freely
     category: 'Work | Installation',
     date: 'October 2022',
     subtitle: 'Piding\nArtist: Korbinian Enzinger\nProject Team: Martin Rohrmoser, Robert Enzinger',
-    description: 'Piding, Germany',
-    imageUrl: 'https://picsum.photos/id/1015/800/600',
-    credits: 'Project by: Korbinian Enzinger\nSoftware and Sensoring system: Martin Rohrmoser, Robert Enzinger\nHardware and Electric Work: Robert Enzinger, Korbinian Enzinger\n3D Printing: Korbinian Enzinger, Sigrid Enzinger\nSetup support: Sigrid Enzinger, Mathias Reiter, Sarina Reiter, Michael Huber\nCommissioned by: Kunstakademie Bad Reichenhall\nChristiane Pott-Schlager, Hubert Grassl, Stefan Wimmer, Traudi Koller',
+    description: `Piding, Germany`,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/SyntheticSwarm/T1.webp',
+    credits: `Project by: Korbinian Enzinger
+Software and Sensoring system: Martin Rohrmoser, Robert Enzinger
+Hardware and Electric Work: Robert Enzinger, Korbinian Enzinger
+3D Printing: Korbinian Enzinger, Sigrid Enzinger
+Setup support: Sigrid Enzinger, Mathias Reiter, Sarina Reiter, Michael Huber
+Commissioned by: Kunstakademie Bad Reichenhall
+Christiane Pott-Schlager, Hubert Grassl, Stefan Wimmer, Traudi Koller`,
     content: [
       {
         type: 'text',
@@ -316,7 +362,7 @@ For this to work, a water distribution system is needed that allows me to freely
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/id/401/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/SyntheticSwarm/01.webp',
         alt: 'Swarm Detail'
       },
       {
@@ -328,12 +374,12 @@ For this to work, a water distribution system is needed that allows me to freely
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/402/600/800',
+            src: 'https://storage.googleapis.com/mutualism-media/SyntheticSwarm/06.webp',
             alt: 'Swarm 1'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/403/600/800',
+            src: 'https://storage.googleapis.com/mutualism-media/SyntheticSwarm/05.webp',
             alt: 'Swarm 2'
           }
         ]
@@ -351,7 +397,7 @@ For this to work, a water distribution system is needed that allows me to freely
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/404/600/800',
+            src: 'https://storage.googleapis.com/mutualism-media/SyntheticSwarm/D1.webp',
             alt: 'Swarm Module'
           },
           {
@@ -369,7 +415,7 @@ Non-toxic, biodegradable ecoPLA is used for the installation, which, due to its 
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/405/600/800',
+            src: 'https://storage.googleapis.com/mutualism-media/SyntheticSwarm/D2.webp',
             alt: 'Swarm Geometry'
           },
           {
@@ -383,12 +429,12 @@ Non-toxic, biodegradable ecoPLA is used for the installation, which, due to its 
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/406/600/800',
+            src: 'https://storage.googleapis.com/mutualism-media/SyntheticSwarm/04.webp',
             alt: 'Swarm Detail 3'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/407/600/800',
+            src: 'https://storage.googleapis.com/mutualism-media/SyntheticSwarm/03.webp',
             alt: 'Swarm Detail 4'
           }
         ]
@@ -408,31 +454,32 @@ For more impressions of the installation click on the gallery below!`
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/408/600/400'
+            src: 'https://storage.googleapis.com/mutualism-media/SyntheticSwarm/ssh01.webp'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/409/600/400'
+            src: 'https://storage.googleapis.com/mutualism-media/SyntheticSwarm/ssh02.webp'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/410/600/400'
+            src: 'https://storage.googleapis.com/mutualism-media/SyntheticSwarm/ssh03.webp'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/411/600/400'
+            src: 'https://storage.googleapis.com/mutualism-media/SyntheticSwarm/ssh04.webp'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/412/600/400'
+            src: 'https://storage.googleapis.com/mutualism-media/SyntheticSwarm/ssh05.webp'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/413/600/400'
+            src: 'https://storage.googleapis.com/mutualism-media/SyntheticSwarm/ssh06.webp'
           }
         ]
       }
-    ]
+    ],
+    featured: false
   },
   {
     id: 'hyph',
@@ -440,13 +487,21 @@ For more impressions of the installation click on the gallery below!`
     category: 'Design | Biodesign',
     date: 'March 2023',
     subtitle: 'Innsbruck\nArtists: Maria Kuptsova, Korbinian Enzinger, Riccardo Mangili, Emiliano Rando',
-    description: 'Innsbruck, Austria',
-    imageUrl: 'https://picsum.photos/id/1019/800/600',
-    credits: 'Bioprinted Design: Maria Kuptsova, Riccardo Mangili, Korbinian Enzinger, Emiliano Rando\nText: Maria Kuptsova\nPrinter engineering: Riccardo Mangili\nPhotos and Renderings: Korbinian Enzinger',
+    description: `Innsbruck, Austria`,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphBanner.webp',
+    credits: `Bioprinted Design: Maria Kuptsova, Riccardo Mangili, Korbinian Enzinger, Emiliano Rando
+Text: Maria Kuptsova
+Printer engineering: Riccardo Mangili
+Photos and Renderings: Korbinian Enzinger`,
     content: [
       {
         type: 'text',
         content: `HYPH is a cyborganic fungi garden grown in an urban environment in a bio-artificial way. It is a productive and regenerative system that materialises in the form of synthetic hybrids endowed with biological life. HYPH embodies a scenario that leads to a more sustainable and productive food industry in urban environments, offering variations of art objects, each one formalising a micro or macro garden to grow specific mycelial and fungal varieties specific to the local environment.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphBanner.webp',
+        alt: 'Fungal growth'
       },
       {
         type: 'text',
@@ -454,7 +509,7 @@ For more impressions of the installation click on the gallery below!`
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/id/501/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphPrint01.webp',
         alt: 'Hyph Print'
       },
       {
@@ -465,7 +520,7 @@ Mycelium, in addition to providing a resource for human sustenance, plays an imp
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/id/502/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphCatalogue.webp',
         alt: 'Hyph Catalogue'
       },
       {
@@ -473,8 +528,8 @@ Mycelium, in addition to providing a resource for human sustenance, plays an imp
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/503/600/600',
-            alt: 'Mycorrhizal Network'
+            src: 'https://storage.googleapis.com/mutualism-media/Hyph/Part01.gif',
+            alt: 'Growth I'
           },
           {
             type: 'text',
@@ -487,8 +542,8 @@ Mycelium, in addition to providing a resource for human sustenance, plays an imp
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/504/600/600',
-            alt: 'Hyph Redefinition'
+            src: 'https://storage.googleapis.com/mutualism-media/Hyph/Part02.gif',
+            alt: 'Growth II'
           },
           {
             type: 'text',
@@ -501,8 +556,8 @@ Mycelium, in addition to providing a resource for human sustenance, plays an imp
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/505/600/600',
-            alt: 'Biomaterial'
+            src: 'https://storage.googleapis.com/mutualism-media/Hyph/Part03.gif',
+            alt: 'Growth III'
           },
           {
             type: 'text',
@@ -512,17 +567,17 @@ Mycelium, in addition to providing a resource for human sustenance, plays an imp
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/id/506/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/CeilingInstallation.webp',
         alt: 'Ceiling Installation'
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/id/507/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/WallInstallation.webp',
         alt: 'Wall Installation'
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/id/508/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/MushroomInstallation.webp',
         alt: 'Mushroom Installation'
       }
     ]
@@ -535,7 +590,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: 'GELU',
     category: 'Research | Patterns',
     date: 'March 2024',
-    description: 'Exploration of glacial melting patterns.',
+    description: `Exploration of glacial melting patterns.`,
     imageUrl: 'https://picsum.photos/id/1020/1920/1080',
     hasIntro: true,
     introVideoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
@@ -555,7 +610,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: 'Corallium',
     category: 'Technique | 3D Printing',
     date: 'February 2024',
-    description: '3D printing technique exploration.',
+    description: `3D printing technique exploration.`,
     imageUrl: 'https://picsum.photos/id/1021/1920/1080',
     content: [
       {
@@ -593,14 +648,15 @@ export const BLOG_POSTS: BlogPost[] = [
           }
         ]
       }
-    ]
+    ],
+    featured: false
   },
   {
     id: 'miscibility',
     title: 'Miscibility',
     category: 'Research | Patterns',
     date: 'January 2024',
-    description: 'Study of fluid dynamics.',
+    description: `Study of fluid dynamics.`,
     imageUrl: 'https://picsum.photos/id/1022/1920/1080',
     hasIntro: true,
     introVideoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
@@ -609,14 +665,15 @@ export const BLOG_POSTS: BlogPost[] = [
         type: 'video',
         src: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
       }
-    ]
+    ],
+    featured: false
   },
   {
     id: 'artificial-morphologies',
     title: 'Artificial Morphologies',
     category: 'Research | Patterns',
     date: 'January 2024',
-    description: 'AI generated landscape patterns.',
+    description: `AI generated landscape patterns.`,
     imageUrl: 'https://picsum.photos/id/1023/1920/1080',
     content: [
       {
@@ -653,14 +710,15 @@ export const BLOG_POSTS: BlogPost[] = [
           }
         ]
       }
-    ]
+    ],
+    featured: false
   },
   {
     id: 'aquatic-morphologies',
     title: 'Aquatic Morphologies',
     category: 'Research | Patterns',
     date: 'August 2023',
-    description: 'Exploration of landscape patterns through satellite imagery.',
+    description: `Exploration of landscape patterns through satellite imagery.`,
     imageUrl: 'https://picsum.photos/id/1024/1920/1080',
     content: [
       {
@@ -674,7 +732,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: 'Terrestrial Morphologies',
     category: 'Research | Patterns',
     date: 'August 2023',
-    description: 'Formal exploration of landscape patterns.',
+    description: `Formal exploration of landscape patterns.`,
     imageUrl: 'https://picsum.photos/id/1025/1920/1080',
     content: [
       {
@@ -688,7 +746,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: 'Differential Growth',
     category: 'Research | Technique',
     date: 'March 2023',
-    description: 'Exploration of growth algorithms.',
+    description: `Exploration of growth algorithms.`,
     imageUrl: 'https://picsum.photos/id/1026/1920/1080',
     content: [
       {
@@ -696,14 +754,15 @@ export const BLOG_POSTS: BlogPost[] = [
         src: 'https://picsum.photos/id/910/1200/800',
         alt: 'DG Structure 1'
       }
-    ]
+    ],
+    featured: false
   },
   {
     id: 'bryophyta',
     title: 'Bryophyta',
     category: 'Research | Application',
     date: 'February 2021',
-    description: 'Moss metabolism apparatus.',
+    description: `Moss metabolism apparatus.`,
     imageUrl: 'https://picsum.photos/id/1027/1920/1080',
     content: [
       {
@@ -717,7 +776,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: 'Fluctus',
     category: 'Research | Patterns',
     date: 'January 2021',
-    description: 'Water surface patterns.',
+    description: `Water surface patterns.`,
     imageUrl: 'https://picsum.photos/id/1028/1920/1080',
     content: [
       {
@@ -731,7 +790,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: 'Particle Sandbox',
     category: 'Technique | Research',
     date: 'February 2020',
-    description: 'Digital lab for particle systems.',
+    description: `Digital lab for particle systems.`,
     imageUrl: 'https://picsum.photos/id/1029/1920/1080',
     content: [
       {
@@ -745,7 +804,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: 'Sand',
     category: 'Photography | Research',
     date: 'February 2020',
-    description: 'Morphologies formed by sand.',
+    description: `Morphologies formed by sand.`,
     imageUrl: 'https://picsum.photos/id/1030/1920/1080',
     content: [
       {
@@ -765,7 +824,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: 'Reaction Diffusion',
     category: 'Technique | Research',
     date: 'December 2019',
-    description: 'Turing patterns in nature.',
+    description: `Turing patterns in nature.`,
     imageUrl: 'https://picsum.photos/id/1031/1920/1080',
     content: [
       {
@@ -779,7 +838,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: 'Tessellation',
     category: 'Technique | Research',
     date: 'October 2019',
-    description: 'Computational design growth patterns.',
+    description: `Computational design growth patterns.`,
     imageUrl: 'https://picsum.photos/id/1032/1920/1080',
     content: [
       {
@@ -795,6 +854,8 @@ export const BIO_TEXT = `I'm an artist, architect, researcher and educator. Afte
 Currently I'm working as a Senior Lecturer at the Synthetic Landscape Lab, Institute of Urban Design in Innsbruck, teaching design courses and developing academic projects in various scales.
 
 My research focuses on the intersection of Architecture and Biology with the goal of creating mutualistic relationships between human and non-human entities.`;
+
+export const BIO_IMAGE = 'https://picsum.photos/id/1025/400/600';
 
 export const PHILOSOPHY_TEXT = `Mutualism between human and non-human starts with ecological awareness. To realize that life on earth is only possible through the interaction and synergy between millions or even billions of different organisms that inhabit it.
 
