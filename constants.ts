@@ -313,27 +313,27 @@ For this to work, a water distribution system is needed that allows me to freely
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/310/600/400'
+            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_04.webp'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/311/600/400'
+            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_05.webp'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/312/600/400'
+            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_06.webp'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/313/600/400'
+            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_07.webp'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/314/600/400'
+            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_08.webp'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/315/600/400'
+            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_09.webp'
           }
         ]
       }
