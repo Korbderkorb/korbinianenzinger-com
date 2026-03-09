@@ -21,7 +21,7 @@ const Home: React.FC = () => {
             {/* Aspect ratio 1920x2880 is 2:3. No grayscale effect. */}
             <div className="aspect-[2/3] w-full relative">
               <img 
-                src="https://picsum.photos/id/1025/1920/2880" 
+                src="https://storage.googleapis.com/mutualism-media/hydromorphology-01.webp" 
                 alt="Hydromorphology Hero" 
                 className="absolute inset-0 w-full h-full object-cover transition-all duration-700 block"
               />
