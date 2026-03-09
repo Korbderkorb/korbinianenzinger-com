@@ -48,6 +48,254 @@ export const SOCIAL_LINKS: SocialLink[] = [
 
 export const FEATURED_PROJECTS: Project[] = [
   {
+    id: 'hydromorphology',
+    title: 'Hydromorphology',
+    category: 'Work | Research',
+    date: 'October 2020',
+    subtitle: 'Kathmandu\nby Korbinian Enzinger\nSupervised by Prof. Claudia Pasquero and Maria Kuptsova',
+    description: `Kathmandu, Nepal`,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_01.webp',
+    credits: `University of Innsbruck 2020
+IOUD - Synthetic Landscape Lab
+
+Author: Dipl.-Ing. Korbinian Enzinger
+
+Supervisor: Prof. Dr. Claudia Pasquero, MA Maria Kuptsova
+
+External Examiner: Dr. Marco Poletto`,
+    content: [
+      {
+        type: 'text',
+        content: `The project aims to respond to the trend of humans to shape landscapes through anthropocentric environmentalism meaning that the primary goal of conserving the environment lies in the exploitation by and from human purposes. With a quickly growing global population, especially since the turn of the 20th century, the impact of anthropocentric environmentalism on the biosphere became increasingly significant. The philosophic idea of "deep ecology" is that our ecosystem is formed by interrelationships between many organisms that depend on each other.`
+      },
+      {
+        type: 'blockquote',
+        content: `[..] "it recognizes diverse communities of life on Earth that are composed not only through biotic factors but also, where applicable, through ethical relations, that is, the valuing of other beings as more than just resources."
+
+Smith, Mick (2014). "Deep Ecology: What is Said and (to be) Done?"`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_07.webp',
+        alt: 'Hydrology Map'
+      },
+      {
+        type: 'text',
+        content: `According to the International Institute of Water Management in Kathmandu, Nepal has 2.7 % of the available fresh water on Earth, making it the second country, after Brazil, with more water reserves in the world. The 8.6 million cubic meters of water that flow from the Himalaya peaks through the Nepali valleys every year provide each of its inhabitants an annual availability of 9000 cubic meters (9 million liters). This is one of the highest rates in the world, much higher, for instance, than the one in India, which reaches 1431 cubic meters.
+
+The thaw of nearly 3000 glaciers and lakes in the highest mountains of the Earth feeds over 6000 rivers and streams that flow through the Nepal valleys. This enormous flow supplies water to over one Billion inhabitants downstream, in India and Pakistan. However, nearly 5 million inhabitants of Nepal, 18% of the population, do not have access to safe sources of drinking water, and 30.9% lives below the poverty threshold, according to data of the United Nations Development Program.
+
+Since 27% of the population in Nepal does not have access to improved sanitation the excisting surface water is exposed to pollution through industry, agriculture as well as the discharge of untreated sewage from dense urban areas, making it unsuitable as a safe souce of drinking water. As a result ground water is becoming the major source of drinking water putting an immense stress on the ground water levels and the ecology depending on it. Looking at the land distribution and rate of urban sprawl in the metropolitain region of Kathmandu it becomes obvious that this trend is likely to worsen if no countervailing measures are undertaken.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_06.webp',
+        alt: 'Erosion Analysis'
+      },
+      {
+        type: 'text',
+        content: `This map of the Kathmandu valley was modified with different erosion techniques to enhance the awareness how the process of water dynamics and the accompanying morphology of the landscape behaves over time. Additionally the shading of the map conveys information about the slope of the topography reduced to a black and white image. The lightest areas represent the steepest slopes and therefore the highest rates of surface water runoff. On the other hand the black areas depict the rather flat areas with slower surface water runoff allowing higher rates of groundwater recharge. this map lets us conceive valuable information about hydromophological processes independently from human interventions.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_03.webp',
+        alt: 'Human Settlements'
+      },
+      {
+        type: 'text',
+        content: `Over the course of the past century the human impact on the environment became increasingly significant, making it impossible to analyse hydrological processes without involving human networks. This map adds the Anthropocene as an extra layer of information involving houses and street networks. unfortunately the areas with the highest potential for groundwater recharge are also the areas best suited for urban development, leading to a negative effect on the hydrology. The sealing of the soil surface not only leads to an increased surface water run-off and lowering of the groundwater level but also to a higher risk of flooding.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_02.webp',
+        alt: 'Hydrology Valley'
+      },
+      {
+        type: 'text',
+        content: `Since water is the main impulse of morphologic processes of the topography and the source for all living beings (humand as well as non-human) it is vital to set it in the focus of attention when trying to develop a new strategy of a sustainable urban sprawl. It is important to understand where the water comes from and what the major influences on the water quality are. This drawing illustrates how the water quality decreases depending on the density of the built-up urban environment. Clarifying these hydromophological processes and using them as a base map is used as a foundation for the development of a new network that allows human and non-human networks to interact with each other to form a "true democracy" that incorporates nature as a indispensable part of the world we live in.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_05.webp',
+        alt: 'Zoom NE'
+      },
+      {
+        type: 'text',
+        content: `My proposal aims to show an alternative city distribution that is designed based on different data inputs from my analysis. The goal of this redistribution is to reduce the stress on the surface water quality caused by pollution, offering a safe source of drinking water for the people of Kathmandu as well as reducing the risks of flooding and landslides.
+
+For this to work, a water distribution system is needed that allows me to freely distribute water to any desired point of the Valley. I was inspired by the "Water Elevating Towers", a low tech approach that has been used in the late 19th century in Tamesloht, Morocco. It is an alternative to an Aqueduct that uses the hydrostatic pressure to transport water from one side of a valley to another. I adapted this linear approach of transporting water to apply to the 3D topography of the Kathmandu Valley.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_08.webp',
+        alt: 'Calculations'
+      },
+      {
+        type: 'text',
+        content: `A script was developed to calculate local high and low points on the topography through a flow line analysis. Water is absorbed at the low points and transported to the next high points at a lower elevation through hydro-static pressure. from these locations water can be redistributed again to its surrounding environment to provide a safe source of water to households as well as agriculture. As a result we get a network for a water distribution system that can cover the entire Kathmandu Valley without any additional input of energy.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_09.webp',
+        alt: 'Distribution Network'
+      },
+      {
+        type: 'text',
+        content: `Furthermore these calculated connections are adapted to the topography, using machine learning, to translate this diagrammatic data into an artificial landscape that entirely follows the hydrology of the Kathmandu Valley.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_04.webp',
+        alt: 'Cycle GAN'
+      },
+      {
+        type: 'text',
+        content: `This data based transformation of the landscape represents an optimized distribution of the existing landscape. As you can see all the many steep parts of the topography which are the most vulnerable to landslides are now overgrown by vegetation to prevent them to further erode and cause economic damage to the inhabitants. At the same time the river course is optimized to the flow behaviour offering retention areas where water can accumulate, allowing groundwater recharge, to improve the overall hydrology of the valley. The distribution of the urban environment also follows the course of the flow lines making the whole city act as a drainage system. This allows a water distribution without any external input of energy which makes it safer against water related disasters.`
+      },
+      {
+        type: 'link-button',
+        url: 'https://issuu.com/syntheticlandscapelab/docs/hydromorphology_korbinianenzinger_masterthesis_lq_',
+        label: 'READ FULL BOOK'
+      },
+      {
+        type: 'video',
+        src: 'https://www.youtube.com/embed/Uedd-MwTV1M'
+      },
+      {
+        type: 'gallery',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_04.webp'
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_05.webp'
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_06.webp'
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_07.webp'
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_08.webp'
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_09.webp'
+          }
+        ]
+      }
+    ],
+    featured: true
+  },
+  {
+    id: 'hyph',
+    title: 'Hyph',
+    category: 'Design | Biodesign',
+    date: 'March 2023',
+    subtitle: 'Innsbruck\nArtists: Maria Kuptsova, Korbinian Enzinger, Riccardo Mangili, Emiliano Rando',
+    description: `Innsbruck, Austria`,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphBanner.webp',
+    credits: `Bioprinted Design: Maria Kuptsova, Riccardo Mangili, Korbinian Enzinger, Emiliano Rando
+Text: Maria Kuptsova
+Printer engineering: Riccardo Mangili
+Photos and Renderings: Korbinian Enzinger`,
+    content: [
+      {
+        type: 'text',
+        content: `HYPH is a cyborganic fungi garden grown in an urban environment in a bio-artificial way. It is a productive and regenerative system that materialises in the form of synthetic hybrids endowed with biological life. HYPH embodies a scenario that leads to a more sustainable and productive food industry in urban environments, offering variations of art objects, each one formalising a micro or macro garden to grow specific mycelial and fungal varieties specific to the local environment.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphBanner.webp',
+        alt: 'Fungal growth'
+      },
+      {
+        type: 'text',
+        content: `For Gilles Clement, the garden "is a process of formalised transmission of biological messages" (Gilles Clement, Il giardiniere planetario, 2008), which today can be achieved through algorithmic coding. Algorithms become machines for the "gardener" to breed biodiversity. Understanding aesthetics as an intrinsic ecological property, HYPH explores biological patterns and materials as a form of artistic language for realising sculptural objects through digital design and production techniques.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphPrint01.webp',
+        alt: 'Hyph Print'
+      },
+      {
+        type: 'text',
+        content: `HYPH proposes to change the aesthetics and ethics of food production. Instead of enclosed and out-of-town greenhouses and farms, HYPH explores scenarios where climate-specific fruits grow in urban environments, creating a new aesthetic for urban spaces. Following the climatic characteristics of Russian cities, as well as Russian culinary traditions and mushroom picking customs, HYPH proposes to integrate fungi gardens into the public spaces of our cities. "Every city dweller becomes a gardener" (Gilles Clement, 2008) or in the particular case a mushroom grower, being in constant relationship with the processes of growth, cultivation and harvesting. The urban dweller no longer buys packaged mushrooms in the supermarket, but can grow the necessary fruit himself or follow the processes of growth. Environmental ecology is a key factor and focus in such a scenario, as humans need to control pollution in the ecosystem in order to produce food.
+
+Mycelium, in addition to providing a resource for human sustenance, plays an important role in the ecosystem as it helps to break down organic matter, recycle nutrients and form symbiotic relationships with plants and other organisms. Fungi can detect and respond to changes in temperature, humidity and nutrient availability by changing their growth patterns and behaviour. Fungi can also serve as indicators of environmental health. Because they are sensitive to changes in air and water quality, they can be used to monitor toxins or other pollutants in urban environments.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphCatalogue.webp',
+        alt: 'Hyph Catalogue'
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Hyph/Part01.gif',
+            alt: 'Growth I'
+          },
+          {
+            type: 'text',
+            content: `One of the best-known examples of mycorrhizal relationships is that between trees and fungi. Trees and fungi are in a mutuallyistic relationship, with the fungus getting sugars from the tree and the tree getting water and minerals from the fungus. The mycelium also has the ability to connect different trees and plants together through a "mycorrhizal network" (Frank, 1885), enabling the exchange of resources (water, nitrogen, carbon and other minerals) and information between the plants.`
+          }
+        ]
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Hyph/Part02.gif',
+            alt: 'Growth II'
+          },
+          {
+            type: 'text',
+            content: `HYPH redefines the relationship between trees and fungi in a new synthetic form. HYPH uses wood chips and mycelium as the basic building materials for art sculptures. The mushroom and wood varieties are selected according to the logic of their relationships in the natural local environment. The bio-programming process helps to extract the organisational principles of the mushroom mycelium and fix them in the form of a spatial topology. Fabrication techniques, such as additive manufacturing, allow the development of adaptive sculpting techniques based on research into material behaviour.`
+          }
+        ]
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Hyph/Part03.gif',
+            alt: 'Growth III'
+          },
+          {
+            type: 'text',
+            content: `Biomaterial based on shavings from wood waste is used for large scale 3d printing, suggesting a new regenerative life cycle of matter from wood in its living state to recycled wood material. This material is fully biodegradable and provides an excellent basis for mycelial growth on the surface of structures. At the time of 3D printing, mycelium spores are planted inside the printed structure. Sprouting through the walls of the sculptures, the mycelium compacts the printed wood structure with its nets and creates its own micro-environment for the growth of fruiting fungal bodies. The new materiality remembers the tactility and smell of wood and mycelium, integrating them into a new form and relationship. The aesthetic form of the sculptures embodies ecological agency.`
+          }
+        ]
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/CeilingInstallation.webp',
+        alt: 'Ceiling Installation'
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/WallInstallation.webp',
+        alt: 'Wall Installation'
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/MushroomInstallation.webp',
+        alt: 'Mushroom Installation'
+      }
+    ],
+    featured: true
+  },
+  {
     id: 'crys',
     title: 'Crys',
     category: 'Design | Fashion',
@@ -189,151 +437,6 @@ Speed x10`
             type: 'image',
             src: 'https://storage.googleapis.com/mutualism-media/Crys/_DSC50171.webp',
             alt: 'Model View 4'
-          }
-        ]
-      }
-    ]
-  },
-  {
-    id: 'hydromorphology',
-    title: 'Hydromorphology',
-    category: 'Work | Research',
-    date: 'October 2020',
-    subtitle: 'Kathmandu\nby Korbinian Enzinger\nSupervised by Prof. Claudia Pasquero and Maria Kuptsova',
-    description: `Kathmandu, Nepal`,
-    imageUrl: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_01.webp',
-    credits: `University of Innsbruck 2020
-IOUD - Synthetic Landscape Lab
-
-Author: Dipl.-Ing. Korbinian Enzinger
-
-Supervisor: Prof. Dr. Claudia Pasquero, MA Maria Kuptsova
-
-External Examiner: Dr. Marco Poletto`,
-    content: [
-      {
-        type: 'text',
-        content: `The project aims to respond to the trend of humans to shape landscapes through anthropocentric environmentalism meaning that the primary goal of conserving the environment lies in the exploitation by and from human purposes. With a quickly growing global population, especially since the turn of the 20th century, the impact of anthropocentric environmentalism on the biosphere became increasingly significant. The philosophic idea of "deep ecology" is that our ecosystem is formed by interrelationships between many organisms that depend on each other.`
-      },
-      {
-        type: 'blockquote',
-        content: `[..] "it recognizes diverse communities of life on Earth that are composed not only through biotic factors but also, where applicable, through ethical relations, that is, the valuing of other beings as more than just resources."
-
-Smith, Mick (2014). "Deep Ecology: What is Said and (to be) Done?"`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_07.webp',
-        alt: 'Hydrology Map'
-      },
-      {
-        type: 'text',
-        content: `According to the International Institute of Water Management in Kathmandu, Nepal has 2.7 % of the available fresh water on Earth, making it the second country, after Brazil, with more water reserves in the world. The 8.6 million cubic meters of water that flow from the Himalaya peaks through the Nepali valleys every year provide each of its inhabitants an annual availability of 9000 cubic meters (9 million liters). This is one of the highest rates in the world, much higher, for instance, than the one in India, which reaches 1431 cubic meters.
-
-The thaw of nearly 3000 glaciers and lakes in the highest mountains of the Earth feeds over 6000 rivers and streams that flow through the Nepal valleys. This enormous flow supplies water to over one Billion inhabitants downstream, in India and Pakistan. However, nearly 5 million inhabitants of Nepal, 18% of the population, do not have access to safe sources of drinking water, and 30.9% lives below the poverty threshold, according to data of the United Nations Development Program.
-
-Since 27% of the population in Nepal does not have access to improved sanitation the excisting surface water is exposed to pollution through industry, agriculture as well as the discharge of untreated sewage from dense urban areas, making it unsuitable as a safe souce of drinking water. As a result ground water is becoming the major source of drinking water putting an immense stress on the ground water levels and the ecology depending on it. Looking at the land distribution and rate of urban sprawl in the metropolitain region of Kathmandu it becomes obvious that this trend is likely to worsen if no countervailing measures are undertaken.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_06.webp',
-        alt: 'Erosion Analysis'
-      },
-      {
-        type: 'text',
-        content: `This map of the Kathmandu valley was modified with different erosion techniques to enhance the awareness how the process of water dynamics and the accompanying morphology of the landscape behaves over time. Additionally the shading of the map conveys information about the slope of the topography reduced to a black and white image. The lightest areas represent the steepest slopes and therefore the highest rates of surface water runoff. On the other hand the black areas depict the rather flat areas with slower surface water runoff allowing higher rates of groundwater recharge. this map lets us conceive valuable information about hydromophological processes independently from human interventions.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_03.webp',
-        alt: 'Human Settlements'
-      },
-      {
-        type: 'text',
-        content: `Over the course of the past century the human impact on the environment became increasingly significant, making it impossible to analyse hydrological processes without involving human networks. This map adds the Anthropocene as an extra layer of information involving houses and street networks. unfortunately the areas with the highest potential for groundwater recharge are also the areas best suited for urban development, leading to a negative effect on the hydrology. The sealing of the soil surface not only leads to an increased surface water run-off and lowering of the groundwater level but also to a higher risk of flooding.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_02.webp',
-        alt: 'Hydrology Valley'
-      },
-      {
-        type: 'text',
-        content: `Since water is the main impulse of morphologic processes of the topography and the source for all living beings (humand as well as non-human) it is vital to set it in the focus of attention when trying to develop a new strategy of a sustainable urban sprawl. It is important to understand where the water comes from and what the major influences on the water quality are. This drawing illustrates how the water quality decreases depending on the density of the built-up urban environment. Clarifying these hydromophological processes and using them as a base map is used as a foundation for the development of a new network that allows human and non-human networks to interact with each other to form a "true democracy" that incorporates nature as a indispensable part of the world we live in.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_05.webp',
-        alt: 'Zoom NE'
-      },
-      {
-        type: 'text',
-        content: `My proposal aims to show an alternative city distribution that is designed based on different data inputs from my analysis. The goal of this redistribution is to reduce the stress on the surface water quality caused by pollution, offering a safe source of drinking water for the people of Kathmandu as well as reducing the risks of flooding and landslides.
-
-For this to work, a water distribution system is needed that allows me to freely distribute water to any desired point of the Valley. I was inspired by the "Water Elevating Towers", a low tech approach that has been used in the late 19th century in Tamesloht, Morocco. It is an alternative to an Aqueduct that uses the hydrostatic pressure to transport water from one side of a valley to another. I adapted this linear approach of transporting water to apply to the 3D topography of the Kathmandu Valley.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_08.webp',
-        alt: 'Calculations'
-      },
-      {
-        type: 'text',
-        content: `A script was developed to calculate local high and low points on the topography through a flow line analysis. Water is absorbed at the low points and transported to the next high points at a lower elevation through hydro-static pressure. from these locations water can be redistributed again to its surrounding environment to provide a safe source of water to households as well as agriculture. As a result we get a network for a water distribution system that can cover the entire Kathmandu Valley without any additional input of energy.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_09.webp',
-        alt: 'Distribution Network'
-      },
-      {
-        type: 'text',
-        content: `Furthermore these calculated connections are adapted to the topography, using machine learning, to translate this diagrammatic data into an artificial landscape that entirely follows the hydrology of the Kathmandu Valley.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_04.webp',
-        alt: 'Cycle GAN'
-      },
-      {
-        type: 'text',
-        content: `This data based transformation of the landscape represents an optimized distribution of the existing landscape. As you can see all the many steep parts of the topography which are the most vulnerable to landslides are now overgrown by vegetation to prevent them to further erode and cause economic damage to the inhabitants. At the same time the river course is optimized to the flow behaviour offering retention areas where water can accumulate, allowing groundwater recharge, to improve the overall hydrology of the valley. The distribution of the urban environment also follows the course of the flow lines making the whole city act as a drainage system. This allows a water distribution without any external input of energy which makes it safer against water related disasters.`
-      },
-      {
-        type: 'link-button',
-        url: 'https://issuu.com/syntheticlandscapelab/docs/hydromorphology_korbinianenzinger_masterthesis_lq_',
-        label: 'READ FULL BOOK'
-      },
-      {
-        type: 'video',
-        src: 'https://www.youtube.com/embed/Uedd-MwTV1M'
-      },
-      {
-        type: 'gallery',
-        items: [
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_04.webp'
-          },
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_05.webp'
-          },
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_06.webp'
-          },
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_07.webp'
-          },
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_08.webp'
-          },
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_09.webp'
           }
         ]
       }
@@ -480,111 +583,182 @@ For more impressions of the installation click on the gallery below!`
       }
     ],
     featured: false
-  },
-  {
-    id: 'hyph',
-    title: 'Hyph',
-    category: 'Design | Biodesign',
-    date: 'March 2023',
-    subtitle: 'Innsbruck\nArtists: Maria Kuptsova, Korbinian Enzinger, Riccardo Mangili, Emiliano Rando',
-    description: `Innsbruck, Austria`,
-    imageUrl: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphBanner.webp',
-    credits: `Bioprinted Design: Maria Kuptsova, Riccardo Mangili, Korbinian Enzinger, Emiliano Rando
-Text: Maria Kuptsova
-Printer engineering: Riccardo Mangili
-Photos and Renderings: Korbinian Enzinger`,
-    content: [
-      {
-        type: 'text',
-        content: `HYPH is a cyborganic fungi garden grown in an urban environment in a bio-artificial way. It is a productive and regenerative system that materialises in the form of synthetic hybrids endowed with biological life. HYPH embodies a scenario that leads to a more sustainable and productive food industry in urban environments, offering variations of art objects, each one formalising a micro or macro garden to grow specific mycelial and fungal varieties specific to the local environment.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphBanner.webp',
-        alt: 'Fungal growth'
-      },
-      {
-        type: 'text',
-        content: `For Gilles Clement, the garden "is a process of formalised transmission of biological messages" (Gilles Clement, Il giardiniere planetario, 2008), which today can be achieved through algorithmic coding. Algorithms become machines for the "gardener" to breed biodiversity. Understanding aesthetics as an intrinsic ecological property, HYPH explores biological patterns and materials as a form of artistic language for realising sculptural objects through digital design and production techniques.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphPrint01.webp',
-        alt: 'Hyph Print'
-      },
-      {
-        type: 'text',
-        content: `HYPH proposes to change the aesthetics and ethics of food production. Instead of enclosed and out-of-town greenhouses and farms, HYPH explores scenarios where climate-specific fruits grow in urban environments, creating a new aesthetic for urban spaces. Following the climatic characteristics of Russian cities, as well as Russian culinary traditions and mushroom picking customs, HYPH proposes to integrate fungi gardens into the public spaces of our cities. "Every city dweller becomes a gardener" (Gilles Clement, 2008) or in the particular case a mushroom grower, being in constant relationship with the processes of growth, cultivation and harvesting. The urban dweller no longer buys packaged mushrooms in the supermarket, but can grow the necessary fruit himself or follow the processes of growth. Environmental ecology is a key factor and focus in such a scenario, as humans need to control pollution in the ecosystem in order to produce food.
-
-Mycelium, in addition to providing a resource for human sustenance, plays an important role in the ecosystem as it helps to break down organic matter, recycle nutrients and form symbiotic relationships with plants and other organisms. Fungi can detect and respond to changes in temperature, humidity and nutrient availability by changing their growth patterns and behaviour. Fungi can also serve as indicators of environmental health. Because they are sensitive to changes in air and water quality, they can be used to monitor toxins or other pollutants in urban environments.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphCatalogue.webp',
-        alt: 'Hyph Catalogue'
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Hyph/Part01.gif',
-            alt: 'Growth I'
-          },
-          {
-            type: 'text',
-            content: `One of the best-known examples of mycorrhizal relationships is that between trees and fungi. Trees and fungi are in a mutuallyistic relationship, with the fungus getting sugars from the tree and the tree getting water and minerals from the fungus. The mycelium also has the ability to connect different trees and plants together through a "mycorrhizal network" (Frank, 1885), enabling the exchange of resources (water, nitrogen, carbon and other minerals) and information between the plants.`
-          }
-        ]
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Hyph/Part02.gif',
-            alt: 'Growth II'
-          },
-          {
-            type: 'text',
-            content: `HYPH redefines the relationship between trees and fungi in a new synthetic form. HYPH uses wood chips and mycelium as the basic building materials for art sculptures. The mushroom and wood varieties are selected according to the logic of their relationships in the natural local environment. The bio-programming process helps to extract the organisational principles of the mushroom mycelium and fix them in the form of a spatial topology. Fabrication techniques, such as additive manufacturing, allow the development of adaptive sculpting techniques based on research into material behaviour.`
-          }
-        ]
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Hyph/Part03.gif',
-            alt: 'Growth III'
-          },
-          {
-            type: 'text',
-            content: `Biomaterial based on shavings from wood waste is used for large scale 3d printing, suggesting a new regenerative life cycle of matter from wood in its living state to recycled wood material. This material is fully biodegradable and provides an excellent basis for mycelial growth on the surface of structures. At the time of 3D printing, mycelium spores are planted inside the printed structure. Sprouting through the walls of the sculptures, the mycelium compacts the printed wood structure with its nets and creates its own micro-environment for the growth of fruiting fungal bodies. The new materiality remembers the tactility and smell of wood and mycelium, integrating them into a new form and relationship. The aesthetic form of the sculptures embodies ecological agency.`
-          }
-        ]
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hyph/CeilingInstallation.webp',
-        alt: 'Ceiling Installation'
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hyph/WallInstallation.webp',
-        alt: 'Wall Installation'
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hyph/MushroomInstallation.webp',
-        alt: 'Mushroom Installation'
-      }
-    ]
   }
 ];
 
 export const BLOG_POSTS: BlogPost[] = [
+  {
+    id: 'miscibility',
+    title: 'Miscibility',
+    category: 'Research | Patterns',
+    date: 'January 2024',
+    description: `Study of fluid dynamics.`,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Miscibility/Miscibility_TN1.webp',
+    hasIntro: true,
+    introVideoUrl: 'https://storage.googleapis.com/mutualism-media/Miscibility/Miscibility01.mp4',
+    content: [
+      {
+        type: 'video',
+        src: 'https://storage.googleapis.com/mutualism-media/Miscibility/Miscibility01.mp4'
+      }
+    ],
+    featured: true
+  },
+  {
+    id: 'gelu',
+    title: 'GELU',
+    category: 'Research | Patterns',
+    date: 'March 2024',
+    description: `Exploration of glacial melting patterns.`,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Gelu/Gelu_TN.webp',
+    hasIntro: true,
+    introVideoUrl: 'https://storage.googleapis.com/mutualism-media/Gelu/Gelu_MeltingIceMicro.mp4',
+    content: [
+      {
+        type: 'video',
+        src: 'https://storage.googleapis.com/mutualism-media/Gelu/Gelu_MeltingIceMicro.mp4'
+      },
+      {
+        type: 'text',
+        content: `GELU delves into the nature of glitches as both disruptors and generators of aesthetic experience. The work studies the transformative process shaped at the interplay between natural processes and nuances of technological innovation. Focusing on the profound environmental glitch of melting glaciers, we aim to capture the essence of this phenomenon through a dynamic artistic exploration that intertwines digital technology with natural elements.`
+      }
+    ]
+  },
+  {
+    id: 'tessellation',
+    title: 'Tessellation',
+    category: 'Technique | Research',
+    date: 'October 2019',
+    description: ``,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Tesselation/Tesselation_01.webp',
+    content: [
+      {
+        type: 'text',
+        content: `The formation of an urban landscape like the Kathmandu Valley consists of two contrary processes. The first one, described in prio, is the morphology of the landscape through erosion processes (see blog "Erosion") mainly driven by water. The second one is the emergence of urban and biological structures that grow according to a systemic interconnection between various social, economic and ecologic parameters on multiple scales. These two contrary processes (Growth vs. Erosion) occur at different scales and also in a different time frame but like any other network they have an important influence on the systemic interconnections of the overall system.
+
+In the following experiment computational Design techniques were used as a speculative approach to develop growth patterns. Using algorithms in the design process allows me to use simple principles that can create complex results which closely correspond to growth patterns found in nature.`
+      },
+      {
+        type: 'blockquote',
+        content: `“The successful survival of the “real-time world city” requires participation and exchange at the various social levels and material scales; a code that incorporates participation must be able to grow as the network grows, it cannot be defined a priori in a controlled or predetermined environment. “Urban algorithms” co-evolve within their milieu, the articulation of their structure increases in relation to the complexity and diversity of the urban network they serve. “Urban algorithms” are the necessary coding logics for the self-organizing city.”
+
+Poletto/Pasquero, Systemic Architecture, p. 20`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/AlgorithmDiagram/Algorithm_Diagram_02.png',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `The following approach for an growth algorithm is based on the idea of 3d-tesselation. Repeating branching systems similar to the growth of a tree or a coral can be generated using simple building elements. The figures below illustrate how this looping algorithm can create a complex geometry by adding a V-shaped branch on top of itself and iterating this process multiple times. This process can be applied to an infinite variety of building elements and thus create endless amounts of output geometries.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Tesselation/04.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `The catalogue above shows how a deformation of the starting geometry influences the output geometry after 8 iterations of tessellation.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Tesselation/01.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `Using a simple plane as a starting geometry limits the tessellation algorithm to one direction. Using a V-shaped branch results in a morphology which closely corresponds to growth patterns of certain coals and various plant species.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Tesselation/02.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `Tesselating a branch on a cube as a base geometry let's the tessellation process take place on all 6 faces of the cube. Deformations to the base cube additionaly influence the output geometry.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Tesselation/03.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `These 3D-Tessellations describe a growing process which does not react to any external parameters. For a more elaborated representation of human and non-human growth patterns we have to conceive the growing urban environment as an adaptive system with constant feedback loops, rather than a deterministic system because of the constantly changing external parameters. Most patterns found in nature are created through the interaction between two or more materials with external forces (Water, Wind, Gravity etc.) driving the process.`
+      }
+    ]
+  },
+  {
+    id: 'reaction-diffusion',
+    title: 'Reaction Diffusion',
+    category: 'Technique | Research',
+    date: 'December 2019',
+    description: `Turing patterns in nature.`,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/reaction_diffusion_01.webp',
+    content: [
+      {
+        type: 'text',
+        content: `The process of Reaction-Diffusion is the next step from a deterministic system like Tessellation (see blog "Tesselation") to a system that is self-organizing and can change and evolve by adjusting parameters and conditions. The so called Turing Patterns, manifested in mathematical terms by Alan Turing in 1952, are believed to be the reason for the emergence of a wide variety of patterns found in nature (Staff, 2018). This theory might explain patterns like the stripes of a zebra, the ripples in sand or even the arrangement of fingers. It could also represent the interconnection between two contrary networks. In terms of our built environment this could be interpreted as the interconnection between human and non-human networks.`
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/rd_01.gif.sydownload',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/C1.webp',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/rd_02.gif',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/C2.webp',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/RD_Sand03.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/C3.webp',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'text',
+        content: `Reaction-Diffusion is a process that incorporates only two parameters in the equation. When analyzing landscapes in a systemic way it becomes obvious that the entity of the biosphere is a lot more complex and many more external forces play a role in the final outcome of the system.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/reaction_diffusion_01.webp',
+        alt: ''
+      }
+    ]
+  },
   {
     id: 'new-blog-1766773628311',
     title: 'Potenziale',
@@ -788,26 +962,6 @@ export const BLOG_POSTS: BlogPost[] = [
     featured: false
   },
   {
-    id: 'gelu',
-    title: 'GELU',
-    category: 'Research | Patterns',
-    date: 'March 2024',
-    description: `Exploration of glacial melting patterns.`,
-    imageUrl: 'https://storage.googleapis.com/mutualism-media/Gelu/Gelu_TN.webp',
-    hasIntro: true,
-    introVideoUrl: 'https://storage.googleapis.com/mutualism-media/Gelu/Gelu_MeltingIceMicro.mp4',
-    content: [
-      {
-        type: 'video',
-        src: 'https://storage.googleapis.com/mutualism-media/Gelu/Gelu_MeltingIceMicro.mp4'
-      },
-      {
-        type: 'text',
-        content: `GELU delves into the nature of glitches as both disruptors and generators of aesthetic experience. The work studies the transformative process shaped at the interplay between natural processes and nuances of technological innovation. Focusing on the profound environmental glitch of melting glaciers, we aim to capture the essence of this phenomenon through a dynamic artistic exploration that intertwines digital technology with natural elements.`
-      }
-    ]
-  },
-  {
     id: 'corallium',
     title: 'Corallium',
     category: 'Technique | 3D Printing',
@@ -852,23 +1006,6 @@ export const BLOG_POSTS: BlogPost[] = [
       }
     ],
     featured: false
-  },
-  {
-    id: 'miscibility',
-    title: 'Miscibility',
-    category: 'Research | Patterns',
-    date: 'January 2024',
-    description: `Study of fluid dynamics.`,
-    imageUrl: 'https://storage.googleapis.com/mutualism-media/Miscibility/Miscibility_TN1.webp',
-    hasIntro: true,
-    introVideoUrl: 'https://storage.googleapis.com/mutualism-media/Miscibility/Miscibility01.mp4',
-    content: [
-      {
-        type: 'video',
-        src: 'https://storage.googleapis.com/mutualism-media/Miscibility/Miscibility01.mp4'
-      }
-    ],
-    featured: true
   },
   {
     id: 'artificial-morphologies',
@@ -1296,141 +1433,6 @@ export const BLOG_POSTS: BlogPost[] = [
       }
     ],
     featured: false
-  },
-  {
-    id: 'reaction-diffusion',
-    title: 'Reaction Diffusion',
-    category: 'Technique | Research',
-    date: 'December 2019',
-    description: `Turing patterns in nature.`,
-    imageUrl: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/reaction_diffusion_01.webp',
-    content: [
-      {
-        type: 'text',
-        content: `The process of Reaction-Diffusion is the next step from a deterministic system like Tessellation (see blog "Tesselation") to a system that is self-organizing and can change and evolve by adjusting parameters and conditions. The so called Turing Patterns, manifested in mathematical terms by Alan Turing in 1952, are believed to be the reason for the emergence of a wide variety of patterns found in nature (Staff, 2018). This theory might explain patterns like the stripes of a zebra, the ripples in sand or even the arrangement of fingers. It could also represent the interconnection between two contrary networks. In terms of our built environment this could be interpreted as the interconnection between human and non-human networks.`
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/rd_01.gif.sydownload',
-            alt: ''
-          },
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/C1.webp',
-            alt: ''
-          }
-        ]
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/rd_02.gif',
-            alt: ''
-          },
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/C2.webp',
-            alt: ''
-          }
-        ]
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/RD_Sand03.webp',
-            alt: ''
-          },
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/C3.webp',
-            alt: ''
-          }
-        ]
-      },
-      {
-        type: 'text',
-        content: `Reaction-Diffusion is a process that incorporates only two parameters in the equation. When analyzing landscapes in a systemic way it becomes obvious that the entity of the biosphere is a lot more complex and many more external forces play a role in the final outcome of the system.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/reaction_diffusion_01.webp',
-        alt: ''
-      }
-    ]
-  },
-  {
-    id: 'tessellation',
-    title: 'Tessellation',
-    category: 'Technique | Research',
-    date: 'October 2019',
-    description: ``,
-    imageUrl: 'https://storage.googleapis.com/mutualism-media/Tesselation/Tesselation_01.webp',
-    content: [
-      {
-        type: 'text',
-        content: `The formation of an urban landscape like the Kathmandu Valley consists of two contrary processes. The first one, described in prio, is the morphology of the landscape through erosion processes (see blog "Erosion") mainly driven by water. The second one is the emergence of urban and biological structures that grow according to a systemic interconnection between various social, economic and ecologic parameters on multiple scales. These two contrary processes (Growth vs. Erosion) occur at different scales and also in a different time frame but like any other network they have an important influence on the systemic interconnections of the overall system.
-
-In the following experiment computational Design techniques were used as a speculative approach to develop growth patterns. Using algorithms in the design process allows me to use simple principles that can create complex results which closely correspond to growth patterns found in nature.`
-      },
-      {
-        type: 'blockquote',
-        content: `“The successful survival of the “real-time world city” requires participation and exchange at the various social levels and material scales; a code that incorporates participation must be able to grow as the network grows, it cannot be defined a priori in a controlled or predetermined environment. “Urban algorithms” co-evolve within their milieu, the articulation of their structure increases in relation to the complexity and diversity of the urban network they serve. “Urban algorithms” are the necessary coding logics for the self-organizing city.”
-
-Poletto/Pasquero, Systemic Architecture, p. 20`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/AlgorithmDiagram/Algorithm_Diagram_02.png',
-        alt: ''
-      },
-      {
-        type: 'text',
-        content: `The following approach for an growth algorithm is based on the idea of 3d-tesselation. Repeating branching systems similar to the growth of a tree or a coral can be generated using simple building elements. The figures below illustrate how this looping algorithm can create a complex geometry by adding a V-shaped branch on top of itself and iterating this process multiple times. This process can be applied to an infinite variety of building elements and thus create endless amounts of output geometries.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Tesselation/04.webp',
-        alt: ''
-      },
-      {
-        type: 'text',
-        content: `The catalogue above shows how a deformation of the starting geometry influences the output geometry after 8 iterations of tessellation.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Tesselation/01.webp',
-        alt: ''
-      },
-      {
-        type: 'text',
-        content: `Using a simple plane as a starting geometry limits the tessellation algorithm to one direction. Using a V-shaped branch results in a morphology which closely corresponds to growth patterns of certain coals and various plant species.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Tesselation/02.webp',
-        alt: ''
-      },
-      {
-        type: 'text',
-        content: `Tesselating a branch on a cube as a base geometry let's the tessellation process take place on all 6 faces of the cube. Deformations to the base cube additionaly influence the output geometry.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Tesselation/03.webp',
-        alt: ''
-      },
-      {
-        type: 'text',
-        content: `These 3D-Tessellations describe a growing process which does not react to any external parameters. For a more elaborated representation of human and non-human growth patterns we have to conceive the growing urban environment as an adaptive system with constant feedback loops, rather than a deterministic system because of the constantly changing external parameters. Most patterns found in nature are created through the interaction between two or more materials with external forces (Water, Wind, Gravity etc.) driving the process.`
-      }
-    ]
   }
 ];
 
