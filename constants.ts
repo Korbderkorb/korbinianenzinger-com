@@ -1436,14 +1436,16 @@ Poletto/Pasquero, Systemic Architecture, p. 20`
   }
 ];
 
-export const BIO_TEXT = `I'm an artist, architect, researcher and educator. After completing my Master degree in Architecture at the University of Innsbruck I've been working as a computational designer for EcoLogicStudio in London developing Projects which have been exhibited at the Centre Pompidou in Paris, Copernicus Science Centre in Warsaw, Biennale Architectura in Venice as well as the COP26 Climate Summit in Glasgow.
+export const BIO_TEXT = `I am an artist, architect, researcher, and educator working at the intersection of architecture, biology, and advanced fabrication technologies. My work explores how computational design, robotics, and material systems can enable new forms of ecological and mutualistic relationships between human and non-human entities.
 
-Currently I'm working as a Senior Lecturer at the Synthetic Landscape Lab, Institute of Urban Design in Innsbruck, teaching design courses and developing academic projects in various scales.
+After completing my Master’s degree in Architecture at the University of Innsbruck, I worked as a computational designer at EcoLogicStudio in London, contributing to projects exhibited internationally, including at the Centre Pompidou in Paris, the Copernicus Science Centre in Warsaw, the Venice Biennale of Architecture, and the COP26 Climate Summit in Glasgow.
 
-My research focuses on the intersection of Architecture and Biology with the goal of creating mutualistic relationships between human and non-human entities.`;
+From 2021 to 2025, I served as Senior Lecturer at the Synthetic Landscape Lab at the Institute of Urban Design in Innsbruck, where I taught design studios and developed experimental research projects across multiple scales.
+
+As part of the ARBOR.art collective, I collaborate on biodigital installations and research projects presented internationally, exploring the intersection of biological systems, computational design, and advanced fabrication.
+
+I am currently Associate Professor in the Digital Built Environment Department at Kyushu University in Fukuoka, Japan, where I lead a laboratory focused on robotic fabrication, computational design, and bio-digital architecture.`;
 
 export const BIO_IMAGE = 'https://storage.googleapis.com/mutualism-media/about/KorbinianEnzinger02.webp';
 
-export const PHILOSOPHY_TEXT = `Mutualism between human and non-human starts with ecological awareness. To realize that life on earth is only possible through the interaction and synergy between millions or even billions of different organisms that inhabit it.
-
-The goal is to evolve our common and mostly rigid understanding of architecture and develope design solutions which are able to change the way we interact with our environment with the ultimate goal of a mutualistic relationship between human and non-human instead of a parasitic one.`;
+export const PHILOSOPHY_TEXT = ``;
