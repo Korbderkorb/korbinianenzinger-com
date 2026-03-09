@@ -29,19 +29,19 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     id: '1',
     platform: 'Instagram',
-    url: 'https://instagram.com/enzinger.k',
+    url: 'https://instagram.com/korbderkorb',
     icon: 'instagram'
   },
   {
     id: '2',
     platform: 'LinkedIn',
-    url: 'https://linkedin.com/in/korbinianenzinger',
+    url: 'www.linkedin.com/in/korbinian-enzinger-9abb6b228',
     icon: 'linkedin'
   },
   {
     id: '3',
     platform: 'Email',
-    url: 'mailto:contact@enzinger.k',
+    url: 'korbinian.enzinger@gmail.com',
     icon: 'mail'
   }
 ];
@@ -1434,7 +1434,7 @@ Currently I'm working as a Senior Lecturer at the Synthetic Landscape Lab, Insti
 
 My research focuses on the intersection of Architecture and Biology with the goal of creating mutualistic relationships between human and non-human entities.`;
 
-export const BIO_IMAGE = 'https://picsum.photos/id/1025/400/600';
+export const BIO_IMAGE = 'https://storage.googleapis.com/mutualism-media/about/KorbinianEnzinger02.webp';
 
 export const PHILOSOPHY_TEXT = `Mutualism between human and non-human starts with ecological awareness. To realize that life on earth is only possible through the interaction and synergy between millions or even billions of different organisms that inhabit it.
 
