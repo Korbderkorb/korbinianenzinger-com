@@ -12,7 +12,7 @@ const About: React.FC = () => {
         {/* Profile Image */}
         <div>
           <img 
-            src="https://picsum.photos/id/1005/800/1000" 
+            src="https://storage.googleapis.com/mutualism-media/about/KorbinianEnzinger02.webp" 
             alt="Korbinian Enzinger" 
             className="w-full h-auto object-cover grayscale hover:grayscale-0 transition-all duration-500"
           />
