@@ -868,7 +868,7 @@ export const BLOG_POSTS: BlogPost[] = [
         src: 'https://storage.googleapis.com/mutualism-media/Miscibility/Miscibility01.mp4'
       }
     ],
-    featured: false
+    featured: true
   },
   {
     id: 'artificial-morphologies',
@@ -992,7 +992,8 @@ export const BLOG_POSTS: BlogPost[] = [
           }
         ]
       }
-    ]
+    ],
+    featured: false
   },
   {
     id: 'terrestrial-morphologies',
@@ -1021,7 +1022,8 @@ export const BLOG_POSTS: BlogPost[] = [
         src: 'https://storage.googleapis.com/mutualism-media/GeoPoster/Jamaica.webp',
         alt: ''
       }
-    ]
+    ],
+    featured: false
   },
   {
     id: 'differential-growth',
@@ -1101,7 +1103,8 @@ export const BLOG_POSTS: BlogPost[] = [
         src: 'https://storage.googleapis.com/mutualism-media/Bryophyta/s2.webp',
         alt: ''
       }
-    ]
+    ],
+    featured: false
   },
   {
     id: 'fluctus',
@@ -1135,7 +1138,8 @@ export const BLOG_POSTS: BlogPost[] = [
         src: 'https://storage.googleapis.com/mutualism-media/WaterPatterns/Water_patterns_04.webp',
         alt: ''
       }
-    ]
+    ],
+    featured: false
   },
   {
     id: 'particle-sandbox',
@@ -1214,7 +1218,8 @@ export const BLOG_POSTS: BlogPost[] = [
         url: 'https://issuu.com/syntheticlandscapelab/docs/hydromorphology_korbinianenzinger_masterthesis_lq_',
         label: 'READ FULL BOOK'
       }
-    ]
+    ],
+    featured: false
   },
   {
     id: 'sand',
@@ -1289,7 +1294,8 @@ export const BLOG_POSTS: BlogPost[] = [
           }
         ]
       }
-    ]
+    ],
+    featured: false
   },
   {
     id: 'reaction-diffusion',
