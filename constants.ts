@@ -296,6 +296,16 @@ Mycelium, in addition to providing a resource for human sustenance, plays an imp
     featured: true
   },
   {
+    id: 'new-project-1773199155006',
+    title: 'New project',
+    category: 'General',
+    date: '2024',
+    description: ``,
+    imageUrl: '',
+    content: [],
+    featured: false
+  },
+  {
     id: 'crys',
     title: 'Crys',
     category: 'Design | Fashion',
