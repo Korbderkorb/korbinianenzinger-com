@@ -48,6 +48,205 @@ export const SOCIAL_LINKS: SocialLink[] = [
 
 export const FEATURED_PROJECTS: Project[] = [
   {
+    id: 'new-project-1773208712345',
+    title: 'ARBOR.Silva',
+    category: 'ARBOR.art',
+    date: '2025',
+    description: ``,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/ARBOR_Silva_7.webp',
+    content: [
+      {
+        type: 'text',
+        content: `ARBOR is a synthetic timber architecture embedded with the intelligence of a living tree. Conceived as a series of cyborganic objects, ARBOR proposes a design methodology that reads the intelligence of wood and rearticulates it through digital and robotic fabrication. Machine learning algorithms trained on timber datasets extract organisational principles from nearly a thousand species, translating the microscopic architecture of wood into a new formal language. These systems preserve the material's anisotropic nature while enabling high-resolution, biodegradable, carbon-storing structures formed from industrial wood waste. The result is a bio-technological living ecosystem shaped by human, biological and machinic intelligence.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/ARBOR_Silva_9.webp',
+        alt: ''
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/ARBOR_Silva_7.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/4ARBOR_Silva_3.webp',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/4ARBOR_Silva_5.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/ARBOR_Silva_8.webp',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'text',
+        content: `Third iteration of the ARBOR - ARBOR.Silva - explores the possibility of integrating fungal intelligence into synthetic timber structures. Inspired by the mutualistic relationship between trees and fungi, this iteration embeds spores of Pleurotus djamor—pink oyster mycelium —into a printed wooden matrix enriched with nutrient components. As the mycelium colonises the walls of sculptural elements, it operates as a bioindicator, responding to shifts in air quality by altering its growth behaviour.`
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/ARBOR_Silva_2.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/ARBOR_Silva_3.webp',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'text',
+        content: `Recognising the computational capacity of fungi (Dehshibi, Adamatzky 2021), ARBOR.Silva employs mycelium as a living biosensor capable of transmitting information from the biological agent to an automated system. During the exhibition, real-time data is collected and translated into a cyber-organic audiovisual code—broadcast through an array of embedded LCD screens and micro-speakers within the sculptural form.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/ARBOR_Silva_Diagram.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/ARBOR_Silva_Rendering1.webp',
+        alt: ''
+      }
+    ],
+    featured: true,
+    credits: `Project by
+Maria Kuptsova
+
+Project Team
+Korbinian Enzinger - Computational Designer
+Sergey Kostyrko - Musician, Bio-sensorial system Engineer
+Artem Konevskikh - Machine Learning Engineer
+Gleb Andreev - Fabrication Engineer
+Marina Muzyka - Bio-fabrication Researcher
+
+The project was commissioned by the gallery "Zifergauz" 
+for the exhibition "My mother was a computer" 
+
+Curator - Olga Vad`
+  },
+  {
+    id: 'new-project-1773207735718',
+    title: 'ARBOR.Pilae',
+    category: 'ARBOR.art',
+    date: '2025',
+    description: ``,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/ARBOR_Pilae_03.webp',
+    content: [
+      {
+        type: 'text',
+        content: `ARBOR.Pilae is a cyborganic timber architecture embedded with the intelligence of a living tree. It establishes a regenerative lifecycle of wood, from its living state to a bio-artificially “grown” material system that is embedded with the behaviour of a living matter.`
+      },
+      {
+        type: 'video',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/arbor-intro-03.mp4',
+        alt: ''
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'text',
+            content: `ARBOR explores Venice's traditional connection with timber. Built on water, Venice has always relied on wood, traditionally sourced from the Cansiglio Forest. ARBOR.Pilae develops custom machine learning algorithms to read the diverse structural properties of local wood species and translate their behaviour into synthetic form.`
+          },
+          {
+            type: 'text',
+            content: `Biological data is extracted from living systems, processed through inorganic machine learning algorithms, and reintegrated into synthetic matter. Project-specificbio-computational design tools enable the fabrication of high-resolution, living architecture.`
+          }
+        ]
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/ARBOR_Pilae_Diagram.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/ARBOR_Pilae_03.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `The material system is designed to grow vertically, evoking the idea of a tree—a traditional archetype of an architectural column—specifically following the proportions of the brick columns at the Corderie dell’Arsenale. Its internal morphology reflects the complexity of ecological systems. By revealing the memory of each sectional cut of a tree, the material becomes an augmented library of knowledge, encoding various tree species in a single designed work.`
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/3ARBOR_Pilae_02.jpg',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/ARBOR_Pilae_02.jpg',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'text',
+        content: `Large-scale, high-resolution 3D printing with wood-based fibrous polymers transforms ARBOR’s core structure into a carbon-storing system.Building on the fibrous composite scaffold, biofabricated bricks are ‘grown’ using a water-based material system that incorporates recycled wood powder, collected from local industrial waste. The sculpture is biodegradable, capable of storing and re-metabolising carbon within their form and eventually serve as nutrients for new living species through biodegradation.`
+      },
+      {
+        type: 'video',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/arbor-intro-04.mp4',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/ARBOR_Pilae_Diagram_2.jpg',
+        alt: ''
+      }
+    ],
+    featured: true,
+    credits: `Project by
+Maria Kuptsova
+
+with
+Korbinian Enzinger - Computational Designer
+Artem Konevskikh - Machine Learning Engineer
+
+Research Supervisor:
+Claudia Pasquero, Synthetic Landscape Lab, Institute of Urban Design, University of Innsbruck
+
+Fabrication assistant:
+Beyza Nur Armagan
+
+Support & Collaboration:
+LAMÁQUINA (Engineering & Robotic 3D printing)
+PURE.TECH (Material Technology)
+Synthetic Landscape Lab, Institute of Urban Design, University of Innsbruck (Research Infrastructure)
+Growers of Mushroom (Living matter)
+
+Special Thanks:
+Chirag Rangholia (Engineering & Robotic 3D printing)
+Aldo Solazzo (Engineering & Robotic 3D printing)
+Marco Poletto (Research)
+
+Exhibition Curator:
+Carlo Ratti`
+  },
+  {
     id: 'hydromorphology',
     title: 'Hydromorphology',
     category: 'Work | Research',
@@ -191,7 +390,7 @@ For this to work, a water distribution system is needed that allows me to freely
         ]
       }
     ],
-    featured: true
+    featured: false
   },
   {
     id: 'hyph',
@@ -293,206 +492,7 @@ Mycelium, in addition to providing a resource for human sustenance, plays an imp
         alt: 'Mushroom Installation'
       }
     ],
-    featured: true
-  },
-  {
-    id: 'new-project-1773208712345',
-    title: 'ARBOR.Silva',
-    category: 'ARBOR.art',
-    date: '2025',
-    description: ``,
-    imageUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/ARBOR_Silva_7.webp',
-    content: [
-      {
-        type: 'text',
-        content: `ARBOR is a synthetic timber architecture embedded with the intelligence of a living tree. Conceived as a series of cyborganic objects, ARBOR proposes a design methodology that reads the intelligence of wood and rearticulates it through digital and robotic fabrication. Machine learning algorithms trained on timber datasets extract organisational principles from nearly a thousand species, translating the microscopic architecture of wood into a new formal language. These systems preserve the material's anisotropic nature while enabling high-resolution, biodegradable, carbon-storing structures formed from industrial wood waste. The result is a bio-technological living ecosystem shaped by human, biological and machinic intelligence.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/ARBOR_Silva_9.webp',
-        alt: ''
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/ARBOR_Silva_7.webp',
-            alt: ''
-          },
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/4ARBOR_Silva_3.webp',
-            alt: ''
-          }
-        ]
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/4ARBOR_Silva_5.webp',
-            alt: ''
-          },
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/ARBOR_Silva_8.webp',
-            alt: ''
-          }
-        ]
-      },
-      {
-        type: 'text',
-        content: `Third iteration of the ARBOR - ARBOR.Silva - explores the possibility of integrating fungal intelligence into synthetic timber structures. Inspired by the mutualistic relationship between trees and fungi, this iteration embeds spores of Pleurotus djamor—pink oyster mycelium —into a printed wooden matrix enriched with nutrient components. As the mycelium colonises the walls of sculptural elements, it operates as a bioindicator, responding to shifts in air quality by altering its growth behaviour.`
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/ARBOR_Silva_2.webp',
-            alt: ''
-          },
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/ARBOR_Silva_3.webp',
-            alt: ''
-          }
-        ]
-      },
-      {
-        type: 'text',
-        content: `Recognising the computational capacity of fungi (Dehshibi, Adamatzky 2021), ARBOR.Silva employs mycelium as a living biosensor capable of transmitting information from the biological agent to an automated system. During the exhibition, real-time data is collected and translated into a cyber-organic audiovisual code—broadcast through an array of embedded LCD screens and micro-speakers within the sculptural form.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/ARBOR_Silva_Diagram.webp',
-        alt: ''
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/ARBOR_Silva_Rendering1.webp',
-        alt: ''
-      }
-    ],
-    featured: false,
-    credits: `Project by
-Maria Kuptsova
-
-Project Team
-Korbinian Enzinger - Computational Designer
-Sergey Kostyrko - Musician, Bio-sensorial system Engineer
-Artem Konevskikh - Machine Learning Engineer
-Gleb Andreev - Fabrication Engineer
-Marina Muzyka - Bio-fabrication Researcher
-
-The project was commissioned by the gallery "Zifergauz" 
-for the exhibition "My mother was a computer" 
-
-Curator - Olga Vad`
-  },
-  {
-    id: 'new-project-1773207735718',
-    title: 'ARBOR.Pilae',
-    category: 'ARBOR.art',
-    date: '2025',
-    description: ``,
-    imageUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/ARBOR_Pilae_03.webp',
-    content: [
-      {
-        type: 'text',
-        content: `ARBOR.Pilae is a cyborganic timber architecture embedded with the intelligence of a living tree. It establishes a regenerative lifecycle of wood, from its living state to a bio-artificially “grown” material system that is embedded with the behaviour of a living matter.`
-      },
-      {
-        type: 'video',
-        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/arbor-intro-03.mp4',
-        alt: ''
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          {
-            type: 'text',
-            content: `ARBOR explores Venice's traditional connection with timber. Built on water, Venice has always relied on wood, traditionally sourced from the Cansiglio Forest. ARBOR.Pilae develops custom machine learning algorithms to read the diverse structural properties of local wood species and translate their behaviour into synthetic form.`
-          },
-          {
-            type: 'text',
-            content: `Biological data is extracted from living systems, processed through inorganic machine learning algorithms, and reintegrated into synthetic matter. Project-specificbio-computational design tools enable the fabrication of high-resolution, living architecture.`
-          }
-        ]
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/ARBOR_Pilae_Diagram.webp',
-        alt: ''
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/ARBOR_Pilae_03.webp',
-        alt: ''
-      },
-      {
-        type: 'text',
-        content: `The material system is designed to grow vertically, evoking the idea of a tree—a traditional archetype of an architectural column—specifically following the proportions of the brick columns at the Corderie dell’Arsenale. Its internal morphology reflects the complexity of ecological systems. By revealing the memory of each sectional cut of a tree, the material becomes an augmented library of knowledge, encoding various tree species in a single designed work.`
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/3ARBOR_Pilae_02.jpg',
-            alt: ''
-          },
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/ARBOR_Pilae_02.jpg',
-            alt: ''
-          }
-        ]
-      },
-      {
-        type: 'text',
-        content: `Large-scale, high-resolution 3D printing with wood-based fibrous polymers transforms ARBOR’s core structure into a carbon-storing system.Building on the fibrous composite scaffold, biofabricated bricks are ‘grown’ using a water-based material system that incorporates recycled wood powder, collected from local industrial waste. The sculpture is biodegradable, capable of storing and re-metabolising carbon within their form and eventually serve as nutrients for new living species through biodegradation.`
-      },
-      {
-        type: 'video',
-        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/arbor-intro-04.mp4',
-        alt: ''
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/ARBOR_Pilae_Diagram_2.jpg',
-        alt: ''
-      }
-    ],
-    featured: false,
-    credits: `Project by
-Maria Kuptsova
-
-with
-Korbinian Enzinger - Computational Designer
-Artem Konevskikh - Machine Learning Engineer
-
-Research Supervisor:
-Claudia Pasquero, Synthetic Landscape Lab, Institute of Urban Design, University of Innsbruck
-
-Fabrication assistant:
-Beyza Nur Armagan
-
-Support & Collaboration:
-LAMÁQUINA (Engineering & Robotic 3D printing)
-PURE.TECH (Material Technology)
-Synthetic Landscape Lab, Institute of Urban Design, University of Innsbruck (Research Infrastructure)
-Growers of Mushroom (Living matter)
-
-Special Thanks:
-Chirag Rangholia (Engineering & Robotic 3D printing)
-Aldo Solazzo (Engineering & Robotic 3D printing)
-Marco Poletto (Research)
-
-Exhibition Curator:
-Carlo Ratti`
+    featured: false
   },
   {
     id: 'new-project-1773207370037',
