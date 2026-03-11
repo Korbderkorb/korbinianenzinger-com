@@ -297,13 +297,80 @@ Mycelium, in addition to providing a resource for human sustenance, plays an imp
   },
   {
     id: 'new-project-1773199155006',
-    title: 'New project',
-    category: 'General',
-    date: '2024',
+    title: 'ARBOR.Ille',
+    category: 'ARBOR.art',
+    date: '2025',
     description: ``,
-    imageUrl: '',
-    content: [],
-    featured: false
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille-1.webp',
+    content: [
+      {
+        type: 'text',
+        content: `ARBOR.Ille is a continuation of the ARBOR series, expanding the exploration of timber's intelligence into a modular, wall-mounted format. The project draws on a vast dataset of microscopic wood structures, gathered from nearly a thousand tree species, to reveal the organisational intelligence embedded in timber. Machine learning algorithms and custom bio-computational tools translate these principles into digital geometries. The resulting forms are 3D-printed from recycled wood composites, creating a carbon-storing architecture informed by the growth logic of Trees. Comprising three compositions, each work consists of up to six tiles measuring 20 × 20 cm, made from wood-based 3D-printed material partially overgrown with mycelium. Each composition is arranged as a unified image or a morphological map, informed by the organisational logics of timber. While the modules together create a larger topographic form, every tile retains its own sculptural presence, allowing it to be perceived as an autonomous fragment of the whole. Collectors are invited to engage with this modular system, acquiring individual tiles as standalone objects or assembling personal constellations from multiple elements.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille-2.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille-3.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille-diagram.webp',
+        alt: 'ARBOR.Ille_α1, ARBOR.Ille_α2, ARBOR.Ille_α3, ARBOR.Ille_α4, ARBOR.Ille_α5, ARBOR.Ille_α6'
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille-4.webp',
+        alt: ''
+      },
+      {
+        type: 'gallery',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille-slide-01.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille-slide-07.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille-slide-02.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille-slide-03.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille-slide-04.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille-slide-05.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille-slide-06.webp',
+            alt: ''
+          }
+        ]
+      }
+    ],
+    featured: false,
+    credits: `Author: Maria Kuptsova
+In collaboration with: Korbinian Enzinger, Gleb Andreev, Artem Konevskikh`
   },
   {
     id: 'crys',
