@@ -48,7 +48,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
 
 export const FEATURED_PROJECTS: Project[] = [
   {
-    id: 'new-project-1773208712345',
+    id: 'arbor-silva',
     title: 'ARBOR.Silva',
     category: 'ARBOR.art',
     date: '2025',
@@ -145,7 +145,7 @@ for the exhibition "My mother was a computer"
 Curator - Olga Vad`
   },
   {
-    id: 'new-project-1773207735718',
+    id: 'arbor-pilae',
     title: 'ARBOR.Pilae',
     category: 'ARBOR.art',
     date: '2025',
@@ -495,7 +495,7 @@ Mycelium, in addition to providing a resource for human sustenance, plays an imp
     featured: false
   },
   {
-    id: 'new-project-1773207370037',
+    id: 'arbor-ars',
     title: 'ARBOR.Ars',
     category: 'ARBOR.art',
     date: '2026',
@@ -565,7 +565,7 @@ Marina Muzyka`,
     introVideoUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ars/arbor-ars.mp4'
   },
   {
-    id: 'new-project-1773200489287',
+    id: 'arbor-aer',
     title: 'ARBOR.Aer',
     category: 'ARBOR.art',
     date: '2025',
@@ -624,7 +624,7 @@ Exhibition Curator
 Dmitry Bulatov`
   },
   {
-    id: 'new-project-1773199155006',
+    id: 'arbor-ille',
     title: 'ARBOR.Ille',
     category: 'ARBOR.art',
     date: '2025',
@@ -1167,7 +1167,7 @@ Poletto/Pasquero, Systemic Architecture, p. 20`
     ]
   },
   {
-    id: 'new-blog-1766773628311',
+    id: 'potenziale',
     title: 'Potenziale',
     category: 'Exhibition | 3D Printing',
     date: '2021',
@@ -1215,7 +1215,7 @@ Poletto/Pasquero, Systemic Architecture, p. 20`
     featured: false
   },
   {
-    id: 'new-blog-1766773471003',
+    id: 'dancing-leaf',
     title: 'Dancing leaf',
     category: '3D Printing',
     date: '2022',
@@ -1286,7 +1286,7 @@ Poletto/Pasquero, Systemic Architecture, p. 20`
     featured: false
   },
   {
-    id: 'new-blog-1766772978566',
+    id: 'erosion',
     title: 'Erosion',
     category: 'Generation|Patterns',
     date: '2022',
