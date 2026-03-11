@@ -503,6 +503,11 @@ Mycelium, in addition to providing a resource for human sustenance, plays an imp
     imageUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ars/arbor-ars-rendering-1.webp',
     content: [
       {
+        type: 'video',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ars/arbor-ars.mp4',
+        alt: ''
+      },
+      {
         type: 'grid-2-col',
         items: [
           {
@@ -561,7 +566,7 @@ Sergey Kostyrko
 Artem Konevskikh
 Gleb Andreev
 Marina Muzyka`,
-    hasIntro: true,
+    hasIntro: false,
     introVideoUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ars/arbor-ars.mp4'
   },
   {
@@ -632,6 +637,11 @@ Dmitry Bulatov`
     imageUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille-1.webp',
     content: [
       {
+        type: 'video',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille.mp4',
+        alt: ''
+      },
+      {
         type: 'text',
         content: `ARBOR.Ille is a continuation of the ARBOR series, expanding the exploration of timber's intelligence into a modular, wall-mounted format. The project draws on a vast dataset of microscopic wood structures, gathered from nearly a thousand tree species, to reveal the organisational intelligence embedded in timber. Machine learning algorithms and custom bio-computational tools translate these principles into digital geometries. The resulting forms are 3D-printed from recycled wood composites, creating a carbon-storing architecture informed by the growth logic of Trees. Comprising three compositions, each work consists of up to six tiles measuring 20 × 20 cm, made from wood-based 3D-printed material partially overgrown with mycelium. Each composition is arranged as a unified image or a morphological map, informed by the organisational logics of timber. While the modules together create a larger topographic form, every tile retains its own sculptural presence, allowing it to be perceived as an autonomous fragment of the whole. Collectors are invited to engage with this modular system, acquiring individual tiles as standalone objects or assembling personal constellations from multiple elements.`
       },
@@ -699,7 +709,7 @@ Dmitry Bulatov`
     featured: false,
     credits: `Author: Maria Kuptsova
 In collaboration with: Korbinian Enzinger, Gleb Andreev, Artem Konevskikh`,
-    hasIntro: true,
+    hasIntro: false,
     introVideoUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille.mp4'
   },
   {
