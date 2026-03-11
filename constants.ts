@@ -501,6 +501,27 @@ Mycelium, in addition to providing a resource for human sustenance, plays an imp
     date: '2026',
     description: ``,
     imageUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ars/arbor-ars-rendering-1.webp',
+    content: [],
+    featured: false,
+    credits: `Author
+Maria Kuptsova
+
+with
+Korbinian Enzinger
+Sergey Kostyrko
+Artem Konevskikh
+Gleb Andreev
+Marina Muzyka`,
+    hasIntro: true,
+    introVideoUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ars/arbor-ars.mp4'
+  },
+  {
+    id: 'arbor-ars/details',
+    title: 'ARBOR.Ars',
+    category: 'ARBOR.art',
+    date: '2026',
+    description: ``,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ars/arbor-ars-rendering-1.webp',
     content: [
       {
         type: 'grid-2-col',
@@ -561,8 +582,7 @@ Sergey Kostyrko
 Artem Konevskikh
 Gleb Andreev
 Marina Muzyka`,
-    hasIntro: true,
-    introVideoUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ars/arbor-ars.mp4'
+    hasIntro: false
   },
   {
     id: 'arbor-aer',
@@ -625,6 +645,20 @@ Dmitry Bulatov`
   },
   {
     id: 'arbor-ille',
+    title: 'ARBOR.Ille',
+    category: 'ARBOR.art',
+    date: '2025',
+    description: ``,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille-1.webp',
+    content: [],
+    featured: false,
+    credits: `Author: Maria Kuptsova
+In collaboration with: Korbinian Enzinger, Gleb Andreev, Artem Konevskikh`,
+    hasIntro: true,
+    introVideoUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille.mp4'
+  },
+  {
+    id: 'arbor-ille/details',
     title: 'ARBOR.Ille',
     category: 'ARBOR.art',
     date: '2025',
@@ -699,8 +733,7 @@ Dmitry Bulatov`
     featured: false,
     credits: `Author: Maria Kuptsova
 In collaboration with: Korbinian Enzinger, Gleb Andreev, Artem Konevskikh`,
-    hasIntro: true,
-    introVideoUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille.mp4'
+    hasIntro: false
   },
   {
     id: 'crys',
@@ -1003,6 +1036,17 @@ export const BLOG_POSTS: BlogPost[] = [
     imageUrl: 'https://storage.googleapis.com/mutualism-media/Miscibility/Miscibility_TN1.webp',
     hasIntro: true,
     introVideoUrl: 'https://storage.googleapis.com/mutualism-media/Miscibility/Miscibility01.mp4',
+    content: [],
+    featured: true
+  },
+  {
+    id: 'miscibility/details',
+    title: 'Miscibility',
+    category: 'Research | Patterns',
+    date: 'January 2024',
+    description: `Study of fluid dynamics.`,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Miscibility/Miscibility_TN1.webp',
+    hasIntro: false,
     content: [
       {
         type: 'video',
@@ -1020,6 +1064,16 @@ export const BLOG_POSTS: BlogPost[] = [
     imageUrl: 'https://storage.googleapis.com/mutualism-media/Gelu/Gelu_TN.webp',
     hasIntro: true,
     introVideoUrl: 'https://storage.googleapis.com/mutualism-media/Gelu/Gelu_MeltingIceMicro.mp4',
+    content: []
+  },
+  {
+    id: 'gelu/details',
+    title: 'GELU',
+    category: 'Research | Patterns',
+    date: 'March 2024',
+    description: `Exploration of glacial melting patterns.`,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Gelu/Gelu_TN.webp',
+    hasIntro: false,
     content: [
       {
         type: 'video',
