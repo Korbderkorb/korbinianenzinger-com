@@ -296,6 +296,65 @@ Mycelium, in addition to providing a resource for human sustenance, plays an imp
     featured: true
   },
   {
+    id: 'new-project-1773200489287',
+    title: 'ARBOR.Aer',
+    category: 'ARBOR.art',
+    date: '2025',
+    description: ``,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Aer/ARBOR_Aer_01.webp',
+    content: [
+      {
+        type: 'text',
+        content: `ARBOR.Pilae is a cyborganic timber architecture embedded with the intelligence of a living tree. It establishes a regenerative lifecycle of wood, from its living state to a bio-artificially “grown” material system that is embedded with the behaviour of a living matter.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Aer/ARBOR_Aer_Diagram.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `ARBOR explores Venice's traditional connection with timber. Built on water, Venice has always relied on wood, traditionally sourced from the Cansiglio Forest. ARBOR.Pilae develops custom machine learning algorithms to read the diverse structural properties of local wood species and translate their behaviour into synthetic form. Biological data is extracted from living systems, processed through inorganic machine learning algorithms, and reintegrated into synthetic matter. Project-specificbio-computational design tools enable the fabrication of high-resolution, living architecture.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Aer/ARBOR_Aer_01.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `The material system is designed to grow vertically, evoking the idea of a tree—a traditional archetype of an architectural column—specifically following the proportions of the brick columns at the Corderie dell’Arsenale. Its internal morphology reflects the complexity of ecological systems. By revealing the memory of each sectional cut of a tree, the material becomes an augmented library of knowledge, encoding various tree species in a single designed work.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Aer/ARBOR_Aer_03.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `Large-scale, high-resolution 3D printing with wood-based fibrous polymers transforms ARBOR’s core structure into a carbon-storing system.Building on the fibrous composite scaffold, biofabricated bricks are ‘grown’ using a water-based material system that incorporates recycled wood powder, collected from local industrial waste. The sculpture is biodegradable, capable of storing and re-metabolising carbon within their form and eventually serve as nutrients for new living species through biodegradation.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Aer/ARBOR_Aer_02.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ARBOR_Aer/ARBOR_Aer_04.webp',
+        alt: ''
+      }
+    ],
+    featured: false,
+    credits: `Project by:
+Maria Kuptsova
+Project Team:
+Korbinian Enzinger
+Artem Konevskikh
+Exhibition Curator
+Dmitry Bulatov`
+  },
+  {
     id: 'new-project-1773199155006',
     title: 'ARBOR.Ille',
     category: 'ARBOR.art',
@@ -370,7 +429,9 @@ Mycelium, in addition to providing a resource for human sustenance, plays an imp
     ],
     featured: false,
     credits: `Author: Maria Kuptsova
-In collaboration with: Korbinian Enzinger, Gleb Andreev, Artem Konevskikh`
+In collaboration with: Korbinian Enzinger, Gleb Andreev, Artem Konevskikh`,
+    hasIntro: true,
+    introVideoUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Ille/arbor-ille.mp4'
   },
   {
     id: 'crys',
