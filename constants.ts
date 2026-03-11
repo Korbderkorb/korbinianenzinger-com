@@ -1053,7 +1053,7 @@ export const BLOG_POSTS: BlogPost[] = [
         src: 'https://storage.googleapis.com/mutualism-media/Miscibility/Miscibility01.mp4'
       }
     ],
-    featured: true
+    featured: false
   },
   {
     id: 'gelu',
@@ -1083,7 +1083,8 @@ export const BLOG_POSTS: BlogPost[] = [
         type: 'text',
         content: `GELU delves into the nature of glitches as both disruptors and generators of aesthetic experience. The work studies the transformative process shaped at the interplay between natural processes and nuances of technological innovation. Focusing on the profound environmental glitch of melting glaciers, we aim to capture the essence of this phenomenon through a dynamic artistic exploration that intertwines digital technology with natural elements.`
       }
-    ]
+    ],
+    featured: false
   },
   {
     id: 'tessellation',
