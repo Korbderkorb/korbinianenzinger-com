@@ -27,6 +27,7 @@ const Footer: React.FC = () => {
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:opacity-70 transition-opacity"
+                  aria-label="Instagram"
                 >
                   {/* Placeholder SVG for Instagram */}
                   <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
