@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:korbinianenzinger.com)"
+      "WebFetch(domain:korbinianenzinger.com)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)"
     ]
   }
 }

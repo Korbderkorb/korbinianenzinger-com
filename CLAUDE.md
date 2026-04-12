@@ -22,18 +22,19 @@
 
 ```
 korbinianenzinger-com/
-├── src/                   # All source code
+├── index.html            # HTML entry point (Vite)
+├── index.tsx             # React DOM entry point (Vite entry)
+├── vite.config.ts        # Vite configuration
+├── tsconfig.json         # TypeScript configuration
+├── package.json          # Dependencies and scripts
+├── CLAUDE.md             # This file
+├── src/                  # All source code
 │   ├── App.tsx           # Root component with routing
-│   ├── index.tsx         # React DOM entry point
 │   ├── constants.ts      # All project/blog content data
 │   ├── types.ts          # TypeScript type definitions
 │   ├── components/       # Reusable UI components
 │   └── pages/            # Page components (Home, About, Projects, Blog, etc.)
 ├── public/               # Static files (robots.txt, sitemap.xml, _redirects)
-├── index.html            # HTML entry point (Vite)
-├── vite.config.ts        # Vite configuration
-├── tsconfig.json         # TypeScript configuration
-├── package.json          # Dependencies and scripts
 └── dist/                 # Build output (created by npm run build, gitignored)
 ```
 
