@@ -22,9 +22,9 @@ const Footer: React.FC = () => {
             <div className="md:w-1/2">
               <h3 className="text-2xl font-bold mb-6">Follow me.</h3>
               <div className="flex gap-4">
-                <a 
-                  href="https://instagram.com" 
-                  target="_blank" 
+                <a
+                  href="https://instagram.com/korbinianenzinger"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="hover:opacity-70 transition-opacity"
                   aria-label="Instagram"

@@ -1,20 +1,51 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Mutualism Portfolio - Personal Website
 
-# Run and deploy your AI Studio app
+A modern portfolio website showcasing projects and research at the intersection of architecture, biology, and advanced fabrication technologies.
 
-This contains everything you need to run your app locally.
+**Live:** https://korbinianenzinger.com
 
-View your app in AI Studio: https://ai.studio/apps/drive/1i8WFW_2ofpC4Cq6TCD4tF5gOE4GNAbek
+## Quick Start
 
-## Run Locally
+**Prerequisites:** Node.js and npm
 
-**Prerequisites:**  Node.js
+### Installation & Development
 
+```bash
+npm install
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Visit `http://localhost:3000` to view the site locally.
+
+### Production Build
+
+```bash
+npm run build
+npm run preview
+```
+
+The `dist/` folder contains the production build, deployed automatically to Cloudflare Pages.
+
+## Tech Stack
+
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router v7
+
+## Project Structure
+
+- `src/` - All source code (components, pages, content)
+- `public/` - Static assets (robots.txt, sitemap.xml)
+- `dist/` - Production build output (auto-generated)
+
+## Content Management
+
+All project and blog content is stored in `src/constants.ts` as structured data. Edit this file to add or modify projects, blog posts, and bio information.
+
+See `CLAUDE.md` for detailed guidelines on working with this project.
+
+---
+
+**Made with ❤️ for korbinianenzinger.com**
