@@ -249,6 +249,74 @@ Carlo Ratti`,
     introVideoUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/arbor-intro-03.mp4'
   },
   {
+    id: 'aevum',
+    title: 'AEVUM',
+    category: 'General',
+    date: '2026',
+    description: ``,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/AEVUM/AEVUM_3.webp',
+    content: [
+      {
+        type: 'text',
+        content: `AEVUM is a cyborganic installation in which a living organism becomes a computational center. The project explores time as a living process of growth, adaptation, and interaction between the biological and the digital.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/AEVUM/AEVUM_1.webp',
+        alt: 'AEVUM_1'
+      },
+      {
+        type: 'text',
+        content: `The artists engage with a contemporary scientific field—biocomputing—where computational processes occur not only in machines but also within living systems. This area moves away from the idea of digital acceleration toward slow, sustainable computations capable of synchronizing with the rhythms of their environment.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/AEVUM/AEVUM_2.webp',
+        alt: 'AEVUM_2'
+      },
+      {
+        type: 'text',
+        content: `In traditional computers, computational speed depends on the available resources: the faster the process, the more memory it requires, and vice versa. In biological computation, acceleration happens through growth—the organism must expand and complicate its network. It spends time developing in space and then compresses and optimizes its structure, much like a living being. This produces distributed computations that can adapt but are not aimed at instantaneous results. Here, computation becomes cultivation, and time is a bodily experience, flowing in the rhythm of a living organism.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/AEVUM/AEVUM_3.webp',
+        alt: 'AEVUM_3'
+      },
+      {
+        type: 'text',
+        content: `At the core of the installation is the slime mold Physarum Polycephalum, cultivated in a custom bioreactor with an integrated sensor matrix and a temperature and humidity control system. This single-celled organism can solve problems, find optimal routes, and adapt to environmental conditions. Its bioelectrical activity is read through a network of 16 sensors and converted into sound and light in real time.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/AEVUM/AEVUM_4.webp',
+        alt: 'AEVUM_Glass'
+      },
+      {
+        type: 'text',
+        content: `The slime mold’s micro-impulses become a pulsating audiovisual code, reflecting its internal rhythms. The signals are transmitted to piezo speakers, which resonate with glass elements handcrafted during experiments with the moulage method. The glass captures traces of its flowing state—the moment when the material was alive, changeable, and responsive to the nature of a living organism.`
+      },
+      {
+        type: 'text',
+        content: `The project creates a living audiovisual space in which one can feel the impulses of another biological species. Here, time ceases to be linear—it grows, branches, and transforms along with the organism.`
+      }
+    ],
+    featured: false,
+    credits: `Author: Maria Kuptsova
+Musician, sound artist: Sergey Kostyrko
+
+with
+Korbinian Enzinger
+Gleb Andreev
+Marina Muzyka
+
+Glass artists: FRESH.GLASS (Dasha Bolkhovitina, Sergey Martynov, Anastasia Vishnyakova, Konstantin Gvozdev)
+Curator: Christina Ots
+`,
+    hasIntro: true,
+    introVideoUrl: 'https://www.youtube.com/watch?v=WMu25Eo9SF4'
+  },
+  {
     id: 'hydromorphology',
     title: 'Hydromorphology',
     category: 'Work | Research',
@@ -1001,7 +1069,9 @@ For more impressions of the installation click on the gallery below!`
         ]
       }
     ],
-    featured: false
+    featured: false,
+    hasIntro: true,
+    introVideoUrl: 'https://storage.googleapis.com/mutualism-media/SyntheticSwarm/Synthetic_Swarm_reduced2.mp4'
   }
 ];
 
