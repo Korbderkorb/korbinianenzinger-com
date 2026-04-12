@@ -244,7 +244,9 @@ Aldo Solazzo (Engineering & Robotic 3D printing)
 Marco Poletto (Research)
 
 Exhibition Curator:
-Carlo Ratti`
+Carlo Ratti`,
+    hasIntro: true,
+    introVideoUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/arbor-intro-03.mp4'
   },
   {
     id: 'hydromorphology',
