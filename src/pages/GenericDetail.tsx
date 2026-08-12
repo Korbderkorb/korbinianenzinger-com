@@ -15,6 +15,18 @@ interface ContentRendererProps {
   onImageClick: (src: string) => void;
 }
 
+// YouTube only allows framing of /embed/ URLs — watch and youtu.be share links
+// are rejected with "refused to connect", so normalize them here.
+const toEmbedUrl = (src: string): string => {
+  const shortMatch = src.match(/^https?:\/\/youtu\.be\/([\w-]+)/);
+  if (shortMatch) return `https://www.youtube.com/embed/${shortMatch[1]}`;
+
+  const watchMatch = src.match(/^https?:\/\/(?:www\.)?youtube\.com\/watch\?(?:.*&)?v=([\w-]+)/);
+  if (watchMatch) return `https://www.youtube.com/embed/${watchMatch[1]}`;
+
+  return src;
+};
+
 const ContentRenderer: React.FC<ContentRendererProps> = ({ block, onImageClick }) => {
   switch (block.type) {
     case 'text':
@@ -85,8 +97,8 @@ const ContentRenderer: React.FC<ContentRendererProps> = ({ block, onImageClick }
                   playsInline
                 />
              ) : (
-                <iframe 
-                  src={block.src} 
+                <iframe
+                  src={toEmbedUrl(block.src ?? '')}
                   title="Video content"
                   className="absolute inset-0 w-full h-full border-0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

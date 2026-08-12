@@ -1186,7 +1186,7 @@ Poletto/Pasquero, Systemic Architecture, p. 20`
     content: [
       {
         type: 'video',
-        src: 'https://youtu.be/b-ZRo9WuULc?si=mEH5h1lW-jPYXm_O',
+        src: 'https://www.youtube.com/embed/b-ZRo9WuULc',
         alt: ''
       },
       {
@@ -1215,7 +1215,7 @@ BambooU offers 11-day workshops multiple times per year where you can learn all 
     content: [
       {
         type: 'video',
-        src: 'https://youtu.be/2HkbewEXYs8?si=Bb5oCyDF633BHCfa',
+        src: 'https://www.youtube.com/embed/2HkbewEXYs8',
         alt: ''
       },
       {
