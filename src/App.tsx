@@ -41,7 +41,8 @@ const App: React.FC = () => {
           <Route path="/blog" element={<Blog />} />
           <Route path="/projects/:id" element={<GenericDetail type="project" />} />
           <Route path="/blog/:id" element={<GenericDetail type="blog" />} />
-          {/* Special route for accessing the full content of blogs with an intro */}
+          {/* Special routes for accessing the full content with an intro bypassed */}
+          <Route path="/projects/:id/details" element={<GenericDetail type="project" forceDetail={true} />} />
           <Route path="/blog/:id/details" element={<GenericDetail type="blog" forceDetail={true} />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
