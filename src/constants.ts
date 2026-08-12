@@ -1079,6 +1079,64 @@ Mycelium, in addition to providing a resource for human sustenance, plays an imp
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    id: 'BambooU_Kaleidoscope',
+    title: 'Kaleidoscope',
+    category: 'BambooU',
+    date: '2026',
+    description: ``,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Kaleidoscope/Kaleidoscope.png',
+    content: [
+      {
+        type: 'video',
+        src: 'https://youtu.be/2HkbewEXYs8?si=88L-DfpF3aCLTa6s',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `In July, I had the opportunity to visit BambooU in Bali together with Prof. Negar Kalantar to share and test our work from the past months. This video was filmed and moderated by Luis Echeverria, General Manager at BambooU, who visited us in my lab in Japan in June for a lecture and made this whole collaboration possible.
+
+This is a video about the second project we did at the workshop in Bali together with an amazing team of carpenters and participants. I feel very privileged and thankful for all the support.
+
+BambooU offers 11-day workshops multiple times per year where you can learn all about bamboo structures and the material itself. They also offer online courses, so feel free to visit their website:`
+      },
+      {
+        type: 'link-button',
+        url: 'https://www.bamboou.com/',
+        label: 'BambooU website'
+      }
+    ],
+    featured: true
+  },
+  {
+    id: 'BambooU',
+    title: 'Linear Motion',
+    category: 'BambooU',
+    date: '2026',
+    description: ``,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/LinearMotion/LinearMotion_1.jpg',
+    content: [
+      {
+        type: 'video',
+        src: 'https://youtu.be/b-ZRo9WuULc?si=2G21rNSs5F_ilTVN',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `In July, I had the opportunity to visit BambooU in Bali together with Prof. Negar Kalantar to share and test our work from the past months. This video was filmed and moderated by Luis Echeverria, General Manager at BambooU, who visited us in my lab in Japan in June for a lecture and made this whole collaboration possible.
+
+This is a video about the first project we did at the workshop in Bali together with an amazing team of carpenters and participants. I feel very privileged and thankful for all the support.
+
+BambooU offers 11-day workshops multiple times per year where you can learn all about bamboo structures and the material itself. They also offer online courses, so feel free to visit their website:`
+      },
+      {
+        type: 'link-button',
+        url: 'https://www.bamboou.com/',
+        label: 'BambooU Website'
+      }
+    ],
+    featured: true
+  },
+  {
     id: 'miscibility',
     title: 'Miscibility',
     category: 'Research | Patterns',
@@ -1180,7 +1238,8 @@ Poletto/Pasquero, Systemic Architecture, p. 20`
         type: 'text',
         content: `These 3D-Tessellations describe a growing process which does not react to any external parameters. For a more elaborated representation of human and non-human growth patterns we have to conceive the growing urban environment as an adaptive system with constant feedback loops, rather than a deterministic system because of the constantly changing external parameters. Most patterns found in nature are created through the interaction between two or more materials with external forces (Water, Wind, Gravity etc.) driving the process.`
       }
-    ]
+    ],
+    featured: false
   },
   {
     id: 'reaction-diffusion',
@@ -1247,63 +1306,6 @@ Poletto/Pasquero, Systemic Architecture, p. 20`
         type: 'image',
         src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/reaction_diffusion_01.webp',
         alt: ''
-      }
-    ]
-  },
-  {
-    id: 'BambooU_Kaleidoscope',
-    title: 'Kaleidoscope',
-    category: 'BambooU',
-    date: '2026',
-    description: ``,
-    imageUrl: 'https://storage.googleapis.com/mutualism-media/Kaleidoscope/Kaleidoscope.png',
-    content: [
-      {
-        type: 'video',
-        src: 'https://www.youtube.com/embed/b-ZRo9WuULc',
-        alt: ''
-      },
-      {
-        type: 'text',
-        content: `In July, I had the opportunity to visit BambooU in Bali together with Prof. Negar Kalantar to share and test our work from the past months. This video was filmed and moderated by Luis Echeverria, General Manager at BambooU, who visited us in my lab in Japan in June for a lecture and made this whole collaboration possible.
-
-This is a video about the second project we did at the workshop in Bali together with an amazing team of carpenters and participants. I feel very privileged and thankful for all the support.
-
-BambooU offers 11-day workshops multiple times per year where you can learn all about bamboo structures and the material itself. They also offer online courses, so feel free to visit their website:`
-      },
-      {
-        type: 'link-button',
-        url: 'https://www.bamboou.com/',
-        label: 'BambooU website'
-      }
-    ],
-    featured: false
-  },
-  {
-    id: 'BambooU',
-    title: 'Linear Motion',
-    category: 'BambooU',
-    date: '2026',
-    description: ``,
-    imageUrl: 'https://storage.googleapis.com/mutualism-media/LinearMotion/LinearMotion_1.jpg',
-    content: [
-      {
-        type: 'video',
-        src: 'https://www.youtube.com/embed/2HkbewEXYs8',
-        alt: ''
-      },
-      {
-        type: 'text',
-        content: `In July, I had the opportunity to visit BambooU in Bali together with Prof. Negar Kalantar to share and test our work from the past months. This video was filmed and moderated by Luis Echeverria, General Manager at BambooU, who visited us in my lab in Japan in June for a lecture and made this whole collaboration possible.
-
-This is a video about the first project we did at the workshop in Bali together with an amazing team of carpenters and participants. I feel very privileged and thankful for all the support.
-
-BambooU offers 11-day workshops multiple times per year where you can learn all about bamboo structures and the material itself. They also offer online courses, so feel free to visit their website:`
-      },
-      {
-        type: 'link-button',
-        url: 'https://www.bamboou.com/',
-        label: 'BambooU Website'
       }
     ],
     featured: false
