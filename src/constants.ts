@@ -142,7 +142,77 @@ Marina Muzyka - Bio-fabrication Researcher
 The project was commissioned by the gallery "Zifergauz" 
 for the exhibition "My mother was a computer" 
 
-Curator - Olga Vad`
+Curator - Olga Vad`,
+    hasIntro: true,
+    introVideoUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Silva/ARBOR_Silva_reduced.mp4'
+  },
+  {
+    id: 'aevum',
+    title: 'AEVUM',
+    category: 'General',
+    date: '2026',
+    description: ``,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/AEVUM/AEVUM_3.webp',
+    content: [
+      {
+        type: 'text',
+        content: `AEVUM is a cyborganic installation in which a living organism becomes a computational center. The project explores time as a living process of growth, adaptation, and interaction between the biological and the digital.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/AEVUM/AEVUM_1.webp',
+        alt: 'AEVUM_1'
+      },
+      {
+        type: 'text',
+        content: `The artists engage with a contemporary scientific field—biocomputing—where computational processes occur not only in machines but also within living systems. This area moves away from the idea of digital acceleration toward slow, sustainable computations capable of synchronizing with the rhythms of their environment.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/AEVUM/AEVUM_2.webp',
+        alt: 'AEVUM_2'
+      },
+      {
+        type: 'text',
+        content: `In traditional computers, computational speed depends on the available resources: the faster the process, the more memory it requires, and vice versa. In biological computation, acceleration happens through growth—the organism must expand and complicate its network. It spends time developing in space and then compresses and optimizes its structure, much like a living being. This produces distributed computations that can adapt but are not aimed at instantaneous results. Here, computation becomes cultivation, and time is a bodily experience, flowing in the rhythm of a living organism.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/AEVUM/AEVUM_3.webp',
+        alt: 'AEVUM_3'
+      },
+      {
+        type: 'text',
+        content: `At the core of the installation is the slime mold Physarum Polycephalum, cultivated in a custom bioreactor with an integrated sensor matrix and a temperature and humidity control system. This single-celled organism can solve problems, find optimal routes, and adapt to environmental conditions. Its bioelectrical activity is read through a network of 16 sensors and converted into sound and light in real time.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/AEVUM/AEVUM_4.webp',
+        alt: 'AEVUM_Glass'
+      },
+      {
+        type: 'text',
+        content: `The slime mold’s micro-impulses become a pulsating audiovisual code, reflecting its internal rhythms. The signals are transmitted to piezo speakers, which resonate with glass elements handcrafted during experiments with the moulage method. The glass captures traces of its flowing state—the moment when the material was alive, changeable, and responsive to the nature of a living organism.`
+      },
+      {
+        type: 'text',
+        content: `The project creates a living audiovisual space in which one can feel the impulses of another biological species. Here, time ceases to be linear—it grows, branches, and transforms along with the organism.`
+      }
+    ],
+    featured: true,
+    credits: `Author: Maria Kuptsova
+Musician, sound artist: Sergey Kostyrko
+
+with
+Korbinian Enzinger
+Gleb Andreev
+Marina Muzyka
+
+Glass artists: FRESH.GLASS (Dasha Bolkhovitina, Sergey Martynov, Anastasia Vishnyakova, Konstantin Gvozdev)
+Curator: Christina Ots
+`,
+    hasIntro: true,
+    introVideoUrl: 'https://storage.googleapis.com/mutualism-media/AEVUM/AEVUM_Video_reduced.mp4'
   },
   {
     id: 'arbor-pilae',
@@ -218,7 +288,7 @@ Curator - Olga Vad`
         alt: ''
       }
     ],
-    featured: true,
+    featured: false,
     credits: `Project by
 Maria Kuptsova
 
@@ -244,7 +314,9 @@ Aldo Solazzo (Engineering & Robotic 3D printing)
 Marco Poletto (Research)
 
 Exhibition Curator:
-Carlo Ratti`
+Carlo Ratti`,
+    hasIntro: true,
+    introVideoUrl: 'https://storage.googleapis.com/mutualism-media/ARBOR_Pilae/arbor-intro-03.mp4'
   },
   {
     id: 'hydromorphology',
@@ -388,108 +460,6 @@ For this to work, a water distribution system is needed that allows me to freely
             src: 'https://storage.googleapis.com/mutualism-media/Hydromorphology/hydromorphology_09.webp'
           }
         ]
-      }
-    ],
-    featured: false
-  },
-  {
-    id: 'hyph',
-    title: 'Hyph',
-    category: 'Design | Biodesign',
-    date: 'March 2023',
-    subtitle: 'Innsbruck\nArtists: Maria Kuptsova, Korbinian Enzinger, Riccardo Mangili, Emiliano Rando',
-    description: `Innsbruck, Austria`,
-    imageUrl: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphBanner.webp',
-    credits: `Bioprinted Design: Maria Kuptsova, Riccardo Mangili, Korbinian Enzinger, Emiliano Rando
-Text: Maria Kuptsova
-Printer engineering: Riccardo Mangili
-Photos and Renderings: Korbinian Enzinger`,
-    content: [
-      {
-        type: 'text',
-        content: `HYPH is a cyborganic fungi garden grown in an urban environment in a bio-artificial way. It is a productive and regenerative system that materialises in the form of synthetic hybrids endowed with biological life. HYPH embodies a scenario that leads to a more sustainable and productive food industry in urban environments, offering variations of art objects, each one formalising a micro or macro garden to grow specific mycelial and fungal varieties specific to the local environment.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphBanner.webp',
-        alt: 'Fungal growth'
-      },
-      {
-        type: 'text',
-        content: `For Gilles Clement, the garden "is a process of formalised transmission of biological messages" (Gilles Clement, Il giardiniere planetario, 2008), which today can be achieved through algorithmic coding. Algorithms become machines for the "gardener" to breed biodiversity. Understanding aesthetics as an intrinsic ecological property, HYPH explores biological patterns and materials as a form of artistic language for realising sculptural objects through digital design and production techniques.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphPrint01.webp',
-        alt: 'Hyph Print'
-      },
-      {
-        type: 'text',
-        content: `HYPH proposes to change the aesthetics and ethics of food production. Instead of enclosed and out-of-town greenhouses and farms, HYPH explores scenarios where climate-specific fruits grow in urban environments, creating a new aesthetic for urban spaces. Following the climatic characteristics of Russian cities, as well as Russian culinary traditions and mushroom picking customs, HYPH proposes to integrate fungi gardens into the public spaces of our cities. "Every city dweller becomes a gardener" (Gilles Clement, 2008) or in the particular case a mushroom grower, being in constant relationship with the processes of growth, cultivation and harvesting. The urban dweller no longer buys packaged mushrooms in the supermarket, but can grow the necessary fruit himself or follow the processes of growth. Environmental ecology is a key factor and focus in such a scenario, as humans need to control pollution in the ecosystem in order to produce food.
-
-Mycelium, in addition to providing a resource for human sustenance, plays an important role in the ecosystem as it helps to break down organic matter, recycle nutrients and form symbiotic relationships with plants and other organisms. Fungi can detect and respond to changes in temperature, humidity and nutrient availability by changing their growth patterns and behaviour. Fungi can also serve as indicators of environmental health. Because they are sensitive to changes in air and water quality, they can be used to monitor toxins or other pollutants in urban environments.`
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphCatalogue.webp',
-        alt: 'Hyph Catalogue'
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Hyph/Part01.gif',
-            alt: 'Growth I'
-          },
-          {
-            type: 'text',
-            content: `One of the best-known examples of mycorrhizal relationships is that between trees and fungi. Trees and fungi are in a mutuallyistic relationship, with the fungus getting sugars from the tree and the tree getting water and minerals from the fungus. The mycelium also has the ability to connect different trees and plants together through a "mycorrhizal network" (Frank, 1885), enabling the exchange of resources (water, nitrogen, carbon and other minerals) and information between the plants.`
-          }
-        ]
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Hyph/Part02.gif',
-            alt: 'Growth II'
-          },
-          {
-            type: 'text',
-            content: `HYPH redefines the relationship between trees and fungi in a new synthetic form. HYPH uses wood chips and mycelium as the basic building materials for art sculptures. The mushroom and wood varieties are selected according to the logic of their relationships in the natural local environment. The bio-programming process helps to extract the organisational principles of the mushroom mycelium and fix them in the form of a spatial topology. Fabrication techniques, such as additive manufacturing, allow the development of adaptive sculpting techniques based on research into material behaviour.`
-          }
-        ]
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          {
-            type: 'image',
-            src: 'https://storage.googleapis.com/mutualism-media/Hyph/Part03.gif',
-            alt: 'Growth III'
-          },
-          {
-            type: 'text',
-            content: `Biomaterial based on shavings from wood waste is used for large scale 3d printing, suggesting a new regenerative life cycle of matter from wood in its living state to recycled wood material. This material is fully biodegradable and provides an excellent basis for mycelial growth on the surface of structures. At the time of 3D printing, mycelium spores are planted inside the printed structure. Sprouting through the walls of the sculptures, the mycelium compacts the printed wood structure with its nets and creates its own micro-environment for the growth of fruiting fungal bodies. The new materiality remembers the tactility and smell of wood and mycelium, integrating them into a new form and relationship. The aesthetic form of the sculptures embodies ecological agency.`
-          }
-        ]
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hyph/CeilingInstallation.webp',
-        alt: 'Ceiling Installation'
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hyph/WallInstallation.webp',
-        alt: 'Wall Installation'
-      },
-      {
-        type: 'image',
-        src: 'https://storage.googleapis.com/mutualism-media/Hyph/MushroomInstallation.webp',
-        alt: 'Mushroom Installation'
       }
     ],
     featured: false
@@ -999,6 +969,110 @@ For more impressions of the installation click on the gallery below!`
         ]
       }
     ],
+    featured: false,
+    hasIntro: true,
+    introVideoUrl: 'https://storage.googleapis.com/mutualism-media/SyntheticSwarm/Synthetic_Swarm_reduced2.mp4'
+  },
+  {
+    id: 'hyph',
+    title: 'Hyph',
+    category: 'Design | Biodesign',
+    date: 'March 2023',
+    subtitle: 'Innsbruck\nArtists: Maria Kuptsova, Korbinian Enzinger, Riccardo Mangili, Emiliano Rando',
+    description: `Innsbruck, Austria`,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphBanner.webp',
+    credits: `Bioprinted Design: Maria Kuptsova, Riccardo Mangili, Korbinian Enzinger, Emiliano Rando
+Text: Maria Kuptsova
+Printer engineering: Riccardo Mangili
+Photos and Renderings: Korbinian Enzinger`,
+    content: [
+      {
+        type: 'text',
+        content: `HYPH is a cyborganic fungi garden grown in an urban environment in a bio-artificial way. It is a productive and regenerative system that materialises in the form of synthetic hybrids endowed with biological life. HYPH embodies a scenario that leads to a more sustainable and productive food industry in urban environments, offering variations of art objects, each one formalising a micro or macro garden to grow specific mycelial and fungal varieties specific to the local environment.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphBanner.webp',
+        alt: 'Fungal growth'
+      },
+      {
+        type: 'text',
+        content: `For Gilles Clement, the garden "is a process of formalised transmission of biological messages" (Gilles Clement, Il giardiniere planetario, 2008), which today can be achieved through algorithmic coding. Algorithms become machines for the "gardener" to breed biodiversity. Understanding aesthetics as an intrinsic ecological property, HYPH explores biological patterns and materials as a form of artistic language for realising sculptural objects through digital design and production techniques.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphPrint01.webp',
+        alt: 'Hyph Print'
+      },
+      {
+        type: 'text',
+        content: `HYPH proposes to change the aesthetics and ethics of food production. Instead of enclosed and out-of-town greenhouses and farms, HYPH explores scenarios where climate-specific fruits grow in urban environments, creating a new aesthetic for urban spaces. Following the climatic characteristics of Russian cities, as well as Russian culinary traditions and mushroom picking customs, HYPH proposes to integrate fungi gardens into the public spaces of our cities. "Every city dweller becomes a gardener" (Gilles Clement, 2008) or in the particular case a mushroom grower, being in constant relationship with the processes of growth, cultivation and harvesting. The urban dweller no longer buys packaged mushrooms in the supermarket, but can grow the necessary fruit himself or follow the processes of growth. Environmental ecology is a key factor and focus in such a scenario, as humans need to control pollution in the ecosystem in order to produce food.
+
+Mycelium, in addition to providing a resource for human sustenance, plays an important role in the ecosystem as it helps to break down organic matter, recycle nutrients and form symbiotic relationships with plants and other organisms. Fungi can detect and respond to changes in temperature, humidity and nutrient availability by changing their growth patterns and behaviour. Fungi can also serve as indicators of environmental health. Because they are sensitive to changes in air and water quality, they can be used to monitor toxins or other pollutants in urban environments.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/HyphCatalogue.webp',
+        alt: 'Hyph Catalogue'
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Hyph/Part01.gif',
+            alt: 'Growth I'
+          },
+          {
+            type: 'text',
+            content: `One of the best-known examples of mycorrhizal relationships is that between trees and fungi. Trees and fungi are in a mutuallyistic relationship, with the fungus getting sugars from the tree and the tree getting water and minerals from the fungus. The mycelium also has the ability to connect different trees and plants together through a "mycorrhizal network" (Frank, 1885), enabling the exchange of resources (water, nitrogen, carbon and other minerals) and information between the plants.`
+          }
+        ]
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Hyph/Part02.gif',
+            alt: 'Growth II'
+          },
+          {
+            type: 'text',
+            content: `HYPH redefines the relationship between trees and fungi in a new synthetic form. HYPH uses wood chips and mycelium as the basic building materials for art sculptures. The mushroom and wood varieties are selected according to the logic of their relationships in the natural local environment. The bio-programming process helps to extract the organisational principles of the mushroom mycelium and fix them in the form of a spatial topology. Fabrication techniques, such as additive manufacturing, allow the development of adaptive sculpting techniques based on research into material behaviour.`
+          }
+        ]
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Hyph/Part03.gif',
+            alt: 'Growth III'
+          },
+          {
+            type: 'text',
+            content: `Biomaterial based on shavings from wood waste is used for large scale 3d printing, suggesting a new regenerative life cycle of matter from wood in its living state to recycled wood material. This material is fully biodegradable and provides an excellent basis for mycelial growth on the surface of structures. At the time of 3D printing, mycelium spores are planted inside the printed structure. Sprouting through the walls of the sculptures, the mycelium compacts the printed wood structure with its nets and creates its own micro-environment for the growth of fruiting fungal bodies. The new materiality remembers the tactility and smell of wood and mycelium, integrating them into a new form and relationship. The aesthetic form of the sculptures embodies ecological agency.`
+          }
+        ]
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/CeilingInstallation.webp',
+        alt: 'Ceiling Installation'
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/WallInstallation.webp',
+        alt: 'Wall Installation'
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Hyph/MushroomInstallation.webp',
+        alt: 'Mushroom Installation'
+      }
+    ],
     featured: false
   }
 ];
@@ -1220,9 +1294,7 @@ BambooU offers 11-day workshops multiple times per year where you can learn all 
       },
       {
         type: 'text',
-        content: `Here is the checked and polished version of your blog post. I corrected a few minor punctuation and capitalization issues (such as "they" to "They") and smoothed out the incomplete ending.
-
-In July, I had the opportunity to visit BambooU in Bali together with Prof. Negar Kalantar to share and test our work from the past months. This video was filmed and moderated by Luis Echeverria, General Manager at BambooU, who visited us in my lab in Japan in June for a lecture and made this whole collaboration possible.
+        content: `In July, I had the opportunity to visit BambooU in Bali together with Prof. Negar Kalantar to share and test our work from the past months. This video was filmed and moderated by Luis Echeverria, General Manager at BambooU, who visited us in my lab in Japan in June for a lecture and made this whole collaboration possible.
 
 This is a video about the first project we did at the workshop in Bali together with an amazing team of carpenters and participants. I feel very privileged and thankful for all the support.
 

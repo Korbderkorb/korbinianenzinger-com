@@ -230,8 +230,8 @@ const GenericDetail: React.FC<GenericDetailProps> = ({ type, forceDetail = false
             playsInline
           />
           <div className="absolute bottom-12 right-12">
-            <Link 
-              to={`/blog/${id}/details`}
+            <Link
+              to={`/${type === 'project' ? 'projects' : 'blog'}/${id}/details`}
               className="border-[1px] border-white text-white px-8 py-3 text-lg font-medium hover:bg-white hover:text-black transition-colors uppercase bg-transparent"
             >
               Dive Deeper..
