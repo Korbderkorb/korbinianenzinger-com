@@ -1253,14 +1253,14 @@ Poletto/Pasquero, Systemic Architecture, p. 20`
   {
     id: 'BambooU_Kaleidoscope',
     title: 'Kaleidoscope',
-    category: 'General',
+    category: 'BambooU',
     date: '2026',
     description: ``,
     imageUrl: 'https://storage.googleapis.com/mutualism-media/Kaleidoscope/Kaleidoscope.png',
     content: [
       {
         type: 'video',
-        src: 'https://www.youtube.com/watch?v=2HkbewEXYs8',
+        src: 'https://www.youtube.com/embed/b-ZRo9WuULc',
         alt: ''
       },
       {
@@ -1282,21 +1282,19 @@ BambooU offers 11-day workshops multiple times per year where you can learn all 
   {
     id: 'BambooU',
     title: 'Linear Motion',
-    category: 'General',
+    category: 'BambooU',
     date: '2026',
     description: ``,
     imageUrl: 'https://storage.googleapis.com/mutualism-media/LinearMotion/LinearMotion_1.jpg',
     content: [
       {
         type: 'video',
-        src: 'https://www.youtube.com/watch?v=b-ZRo9WuULc',
+        src: 'https://www.youtube.com/embed/2HkbewEXYs8',
         alt: ''
       },
       {
         type: 'text',
-        content: `Here is the checked and polished version of your blog post. I corrected a few minor punctuation and capitalization issues (such as "they" to "They") and smoothed out the incomplete ending.
-
-In July, I had the opportunity to visit BambooU in Bali together with Prof. Negar Kalantar to share and test our work from the past months. This video was filmed and moderated by Luis Echeverria, General Manager at BambooU, who visited us in my lab in Japan in June for a lecture and made this whole collaboration possible.
+        content: `In July, I had the opportunity to visit BambooU in Bali together with Prof. Negar Kalantar to share and test our work from the past months. This video was filmed and moderated by Luis Echeverria, General Manager at BambooU, who visited us in my lab in Japan in June for a lecture and made this whole collaboration possible.
 
 This is a video about the first project we did at the workshop in Bali together with an amazing team of carpenters and participants. I feel very privileged and thankful for all the support.
 
